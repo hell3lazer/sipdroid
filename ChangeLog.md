@@ -1,5 +1,9 @@
 ### Beta-Versions ###
 
+  * 7.0
+    * Improved Bluetooth support
+    * New option Unregister on Trains
+
   * 6.5
     * Android 14 compatibility
     * Rejects incoming SIP calls during ongoing PSTN call
