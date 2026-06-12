@@ -136,8 +136,8 @@
             android:src="@drawable/ic_dialpad_24"
             app:tint="?android:attr/textColorPrimary"
             android:background="?android:attr/selectableItemBackgroundBorderless"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
             android:scaleType="fitCenter"
             android:padding="16dp"
             android:contentDescription="Contacts" />

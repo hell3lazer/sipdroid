@@ -399,10 +399,14 @@ import org.zoolu.sip.provider.SipProvider;
 					} else if (type >= REGISTER_NOTIFICATION) {
 						contentView.setTextViewText(R.id.text2, text);
 						if (mSipdroidEngine != null) {
-							String callerId = PreferenceManager.getDefaultSharedPreferences(mContext).getString(org.sipdroid.sipua.ui.Settings.PREF_FROMUSER+(type!=REGISTER_NOTIFICATION?type-REGISTER_NOTIFICATION:""), "");
+							int profileIndex = type - REGISTER_NOTIFICATION;
+							if (type == REGISTER_NOTIFICATION_0) profileIndex = 0;
+							if (profileIndex < 0 || profileIndex >= mSipdroidEngine.user_profiles.length) profileIndex = 0;
+							
+							String callerId = PreferenceManager.getDefaultSharedPreferences(mContext).getString(org.sipdroid.sipua.ui.Settings.PREF_FROMUSER+(profileIndex!=0?profileIndex:""), "");
 							if (callerId == null || callerId.length() == 0) {
-							    if (mSipdroidEngine.user_profiles[type-REGISTER_NOTIFICATION] != null && mSipdroidEngine.user_profiles[type-REGISTER_NOTIFICATION].username != null) {
-							        callerId = mSipdroidEngine.user_profiles[type-REGISTER_NOTIFICATION].username;
+							    if (mSipdroidEngine.user_profiles[profileIndex] != null && mSipdroidEngine.user_profiles[profileIndex].username != null) {
+							        callerId = mSipdroidEngine.user_profiles[profileIndex].username;
 							    } else {
 							        callerId = "Sipdroid";
 							    }

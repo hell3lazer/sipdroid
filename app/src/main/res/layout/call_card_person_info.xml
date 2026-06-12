@@ -38,10 +38,8 @@
     <com.google.android.material.imageview.ShapeableImageView 
                xmlns:app="http://schemas.android.com/apk/res-auto"
                android:id="@+id/photo"
-               android:layout_width="160dp"
-               android:layout_height="160dp"
-               android:scaleType="centerCrop"
-               app:shapeAppearanceOverlay="@style/CircleStyle"
+               android:layout_width="0dp"
+               android:layout_height="0dp"
                android:visibility="gone"
                />
 

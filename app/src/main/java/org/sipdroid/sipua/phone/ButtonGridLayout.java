@@ -50,10 +50,15 @@ public class ButtonGridLayout extends ViewGroup {
         final View child0 = getChildAt(0);
         final int yInc = (getHeight() - mPaddingTop - mPaddingBottom) / rows;
         final int xInc = (getWidth() - mPaddingLeft - mPaddingRight) / mColumns;
-        final int childWidth = child0.getMeasuredWidth();
-        final int childHeight = child0.getMeasuredHeight();
-        final int xOffset = (xInc - childWidth) / 2;
-        final int yOffset = (yInc - childHeight) / 2;
+        int maxChildWidth = 0;
+        int maxChildHeight = 0;
+        for (int i = 0; i < getChildCount(); i++) {
+            maxChildWidth = Math.max(maxChildWidth, getChildAt(i).getMeasuredWidth());
+            maxChildHeight = Math.max(maxChildHeight, getChildAt(i).getMeasuredHeight());
+        }
+
+        final int xOffset = Math.max(0, (xInc - maxChildWidth) / 2);
+        final int yOffset = Math.max(0, (yInc - maxChildHeight) / 2);
         
         for (int row = 0; row < rows; row++) {
             int x = mPaddingLeft;
@@ -64,8 +69,8 @@ public class ButtonGridLayout extends ViewGroup {
                 }
                 View child = getChildAt(cell);
                 child.layout(x + xOffset, y + yOffset, 
-                        x + xOffset + childWidth, 
-                        y + yOffset + childHeight);
+                        x + xOffset + maxChildWidth, 
+                        y + yOffset + maxChildHeight);
                 x += xInc;
             }
             y += yInc;
@@ -81,18 +86,24 @@ public class ButtonGridLayout extends ViewGroup {
         int width = mPaddingLeft + mPaddingRight;
         int height = mPaddingTop + mPaddingBottom;
         
-        // Measure the first child and get it's size
-        View child = getChildAt(0);
-        child.measure(MeasureSpec.UNSPECIFIED , MeasureSpec.UNSPECIFIED);
-        int childWidth = child.getMeasuredWidth();
-        int childHeight = child.getMeasuredHeight();
-        // Make sure the other children are measured as well, to initialize
-        for (int i = 1; i < getChildCount(); i++) {
-            getChildAt(i).measure(MeasureSpec.UNSPECIFIED , MeasureSpec.UNSPECIFIED);
+        int maxChildWidth = 0;
+        int maxChildHeight = 0;
+        
+        for (int i = 0; i < getChildCount(); i++) {
+            View child = getChildAt(i);
+            ViewGroup.LayoutParams lp = child.getLayoutParams();
+            int childWidthSpec = (lp != null && lp.width > 0) ? 
+                MeasureSpec.makeMeasureSpec(lp.width, MeasureSpec.EXACTLY) : MeasureSpec.UNSPECIFIED;
+            int childHeightSpec = (lp != null && lp.height > 0) ? 
+                MeasureSpec.makeMeasureSpec(lp.height, MeasureSpec.EXACTLY) : MeasureSpec.UNSPECIFIED;
+                
+            child.measure(childWidthSpec, childHeightSpec);
+            maxChildWidth = Math.max(maxChildWidth, child.getMeasuredWidth());
+            maxChildHeight = Math.max(maxChildHeight, child.getMeasuredHeight());
         }
-        // All cells are going to be the size of the first child
-        width += mColumns * childWidth;
-        height += getRows() * childHeight;
+        
+        width += mColumns * maxChildWidth;
+        height += getRows() * maxChildHeight;
         
         width = resolveSize(width, widthMeasureSpec);
         height = resolveSize(height, heightMeasureSpec);

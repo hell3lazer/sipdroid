@@ -254,15 +254,21 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
 		}			
 	}
 
-	@Override
 	public void onCreate(Bundle savedInstanceState) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-            setTheme(android.R.style.Theme_DeviceDefault_DayNight);
-        } else {
+		String themePref = PreferenceManager.getDefaultSharedPreferences(this).getString("app_theme", "-1");
+        if ("1".equals(themePref)) {
+            setTheme(android.R.style.Theme_DeviceDefault_Light);
+        } else if ("2".equals(themePref)) {
             setTheme(android.R.style.Theme_DeviceDefault);
+        } else {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                setTheme(android.R.style.Theme_DeviceDefault_DayNight);
+            } else {
+                setTheme(android.R.style.Theme_DeviceDefault);
+            }
         }
 		super.onCreate(savedInstanceState);
-
+        
     	if (Receiver.mContext == null) Receiver.mContext = this;
 		addPreferencesFromResource(R.xml.preferences);
 		setDefaultValues();
@@ -490,6 +496,11 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
     	if (!Thread.currentThread().getName().equals("main"))
     		return;
         	
+        if ("app_theme".equals(key)) {
+            recreate();
+            return;
+        }
+
 		if (key.startsWith(PREF_PORT) && sharedPreferences.getString(key, DEFAULT_PORT).equals("0")) {
 	   		Editor edit = sharedPreferences.edit();
     		edit.putString(key, DEFAULT_PORT);
