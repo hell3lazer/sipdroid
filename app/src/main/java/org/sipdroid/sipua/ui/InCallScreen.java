@@ -59,7 +59,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
-import android.widget.SlidingDrawer;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class InCallScreen extends CallScreen implements View.OnClickListener, SensorEventListener {
@@ -155,7 +155,7 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
 					mHandler.sendEmptyMessageDelayed(MSG_ANSWER_SPEAKER, 10000);
 			break;
 		case UserAgent.UA_STATE_INCALL:
-			mDialerDrawer.close();
+			mDialerDrawer.setVisibility(View.GONE);
 			mDialerDrawer.setVisibility(View.VISIBLE);
 			break;
 		case UserAgent.UA_STATE_IDLE:
@@ -164,11 +164,11 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
 			break;
 		}
 		if (Receiver.call_state != UserAgent.UA_STATE_INCALL) {
-			mDialerDrawer.close();
 			mDialerDrawer.setVisibility(View.GONE);
 		}
 		if (Receiver.ccCall != null) mCallCard.displayMainCallStatus(ccPhone,Receiver.ccCall);
         if (mSlidingCardManager != null) mSlidingCardManager.showPopup();
+        updatePanelVisibility();
 		mHandler.sendEmptyMessage(MSG_TICK);
 		mHandler.sendEmptyMessage(MSG_POPUP);
 	    if (t == null && Receiver.call_state != UserAgent.UA_STATE_IDLE) {
@@ -260,7 +260,7 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
     	        getWindow().setFlags(0, 
                         WindowManager.LayoutParams.FLAG_FULLSCREEN);
     	        if (mDialerDrawer != null) {
-					mDialerDrawer.close();
+					mDialerDrawer.setVisibility(View.GONE);
 					mDialerDrawer.setVisibility(View.VISIBLE);
     	        }
     		}
@@ -268,7 +268,11 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
     };
 
 	ViewGroup mInCallPanel,mMainFrame;
-	SlidingDrawer mDialerDrawer;
+	ViewGroup mDialerDrawer;
+	ViewGroup mActiveCallPanel;
+	ViewGroup mIncomingCallPanel;
+	View mBtnKeypad, mBtnMute, mBtnSpeaker, mBtnHold, mBtnEndCall;
+	ImageView mSliderThumb;
 	public static SlidingCardManager mSlidingCardManager;
 	TextView mStats;
 	TextView mCodec;
@@ -282,18 +286,105 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
         mCallCard = (CallCard) callCardLayout.findViewById(R.id.callCard);
         mCallCard.reset();
 
-        mSlidingCardManager = new SlidingCardManager();
-        mSlidingCardManager.init(ccPhone, this, mMainFrame);
-        SlidingCardManager.WindowAttachNotifierView wanv =
-            new SlidingCardManager.WindowAttachNotifierView(this);
-	    wanv.setSlidingCardManager(mSlidingCardManager);
-	    wanv.setVisibility(View.GONE);
-	    RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(0, 0);
-	    mMainFrame.addView(wanv, lp);
+        // Removed SlidingCardManager initialization to prevent full-screen sliding
+        mSlidingCardManager = null;
 
 	    mStats = (TextView) findViewById(R.id.stats);
 	    mCodec = (TextView) findViewById(R.id.codec);
-        mDialerDrawer = (SlidingDrawer) findViewById(R.id.dialer_container);
+        mDialerDrawer = (ViewGroup) findViewById(R.id.dialer_container);
+        
+        mActiveCallPanel = (ViewGroup) findViewById(R.id.active_call_panel);
+        mIncomingCallPanel = (ViewGroup) findViewById(R.id.incoming_call_panel);
+        mBtnKeypad = findViewById(R.id.btn_keypad);
+        mBtnMute = findViewById(R.id.btn_mute);
+        mBtnSpeaker = findViewById(R.id.btn_speaker);
+        mBtnHold = findViewById(R.id.btn_hold);
+        mBtnEndCall = findViewById(R.id.btn_end_call);
+        mSliderThumb = (ImageView) findViewById(R.id.slider_thumb);
+
+        if (mBtnKeypad != null) {
+            mBtnKeypad.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (mDialerDrawer.getVisibility() == View.VISIBLE) {
+                        mDialerDrawer.setVisibility(View.GONE);
+                    } else {
+                        mDialerDrawer.setVisibility(View.VISIBLE);
+                    }
+                }
+            });
+            mBtnMute.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Receiver.engine(mContext).togglemute();
+                }
+            });
+            mBtnSpeaker.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (RtpStreamReceiver.speakermode == AudioManager.MODE_NORMAL) {
+                        Receiver.engine(mContext).speaker(AudioManager.MODE_IN_CALL);
+                    } else {
+                        Receiver.engine(mContext).speaker(AudioManager.MODE_NORMAL);
+                    }
+                }
+            });
+            mBtnHold.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Receiver.engine(mContext).togglehold();
+                }
+            });
+            mBtnEndCall.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    reject();
+                }
+            });
+            
+            mSliderThumb.setOnTouchListener(new View.OnTouchListener() {
+                float startX;
+                @Override
+                public boolean onTouch(View v, android.view.MotionEvent event) {
+                    ImageView thumb = (ImageView) v;
+                    switch (event.getAction()) {
+                        case android.view.MotionEvent.ACTION_DOWN:
+                            startX = event.getRawX();
+                            return true;
+                        case android.view.MotionEvent.ACTION_MOVE:
+                            float deltaX = event.getRawX() - startX;
+                            v.setTranslationX(deltaX);
+                            
+                            if (deltaX < 0) {
+                                // Sliding left: Decline
+                                thumb.setImageResource(org.sipdroid.sipua.R.drawable.ic_call_end_24);
+                                thumb.setColorFilter(android.graphics.Color.parseColor("#D93025"));
+                            } else {
+                                // Sliding right: Answer
+                                thumb.setImageResource(org.sipdroid.sipua.R.drawable.ic_call);
+                                thumb.setColorFilter(android.graphics.Color.parseColor("#4CAF50"));
+                            }
+                            return true;
+                        case android.view.MotionEvent.ACTION_UP:
+                        case android.view.MotionEvent.ACTION_CANCEL:
+                            float finalDeltaX = event.getRawX() - startX;
+                            if (finalDeltaX > 150) {
+                                answer();
+                            } else if (finalDeltaX < -150) {
+                                reject();
+                            }
+                            
+                            // Reset state
+                            thumb.setImageResource(org.sipdroid.sipua.R.drawable.ic_call);
+                            thumb.setColorFilter(android.graphics.Color.parseColor("#4CAF50"));
+                            v.animate().translationX(0).setDuration(200).start();
+                            return true;
+                    }
+                    return false;
+                }
+            });
+        }
+
         mCallCard.displayOnHoldCallStatus(ccPhone,null);
         mCallCard.displayOngoingCallStatus(ccPhone,null);
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
@@ -376,12 +467,23 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
         	setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_NOSENSOR);
     }
 		
+    public void updatePanelVisibility() {
+        if (mActiveCallPanel != null && mIncomingCallPanel != null) {
+            if (Receiver.call_state == UserAgent.UA_STATE_INCOMING_CALL) {
+                mActiveCallPanel.setVisibility(View.GONE);
+                mIncomingCallPanel.setVisibility(View.VISIBLE);
+            } else {
+                mActiveCallPanel.setVisibility(View.VISIBLE);
+                mIncomingCallPanel.setVisibility(View.GONE);
+            }
+        }
+    }
+
 	public void reject() {
 		if (Receiver.ccCall != null) {
 			Receiver.stopRingtone();
 			Receiver.ccCall.setState(Call.State.DISCONNECTED);
 			mCallCard.displayMainCallStatus(ccPhone,Receiver.ccCall);
-			mDialerDrawer.close();
 			mDialerDrawer.setVisibility(View.GONE);
 	        if (mSlidingCardManager != null)
 	        	mSlidingCardManager.showPopup();
@@ -390,7 +492,8 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
 			public void run() {
         		Receiver.engine(mContext).rejectcall();
 			}
-		}).start();   	
+		}).start();
+        updatePanelVisibility();
     }
 	
 	public void answer() {
@@ -407,6 +510,7 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
 	        if (mSlidingCardManager != null)
 	        	mSlidingCardManager.showPopup();
 		}
+        updatePanelVisibility();
 	}
 	
 	@Override
@@ -433,8 +537,8 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
             return true;
 
         case KeyEvent.KEYCODE_BACK:
-        	if (mDialerDrawer.isOpened())
-        		mDialerDrawer.animateClose();
+        	if (mDialerDrawer.getVisibility() == View.VISIBLE)
+        		mDialerDrawer.setVisibility(View.GONE);
             return true;
 
         case KeyEvent.KEYCODE_CAMERA:
@@ -492,7 +596,7 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case DTMF_MENU_ITEM:
-			mDialerDrawer.animateOpen();
+			mDialerDrawer.setVisibility(View.VISIBLE);
 			return true;
 		default:
 			return super.onOptionsItemSelected(item);
@@ -557,7 +661,6 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, 
                                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         closeOptionsMenu();
-		mDialerDrawer.close();
 		mDialerDrawer.setVisibility(View.GONE);
 	}
 }

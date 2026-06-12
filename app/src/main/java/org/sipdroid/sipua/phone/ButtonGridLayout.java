@@ -88,7 +88,7 @@ public class ButtonGridLayout extends ViewGroup {
         int childHeight = child.getMeasuredHeight();
         // Make sure the other children are measured as well, to initialize
         for (int i = 1; i < getChildCount(); i++) {
-            getChildAt(0).measure(MeasureSpec.UNSPECIFIED , MeasureSpec.UNSPECIFIED);
+            getChildAt(i).measure(MeasureSpec.UNSPECIFIED , MeasureSpec.UNSPECIFIED);
         }
         // All cells are going to be the size of the first child
         width += mColumns * childWidth;

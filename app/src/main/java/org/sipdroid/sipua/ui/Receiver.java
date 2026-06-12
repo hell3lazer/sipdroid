@@ -285,7 +285,7 @@ import org.zoolu.sip.provider.SipProvider;
 			        mContext.startActivity(createIntent(InCallScreen.class));
 					break;
 				case UserAgent.UA_STATE_HOLD:
-					onText(CALL_NOTIFICATION, mContext.getString(R.string.card_title_on_hold), android.R.drawable.stat_sys_phone_call_on_hold,ccCall.base);
+					onText(CALL_NOTIFICATION, mContext.getString(R.string.card_title_on_hold), R.drawable.ic_call_hold_24,ccCall.base);
 					ccCall.setState(Call.State.HOLDING);
 			        if (InCallScreen.started && (pstn_state == null || !pstn_state.equals("RINGING"))) mContext.startActivity(createIntent(InCallScreen.class));
 					break;
@@ -398,15 +398,17 @@ import org.zoolu.sip.provider.SipProvider;
 						contentView.setChronometer(R.id.text1, base, text+" (%s)", true);
 					} else if (type >= REGISTER_NOTIFICATION) {
 						contentView.setTextViewText(R.id.text2, text);
-						if (mSipdroidEngine != null)
-							if (type == REGISTER_NOTIFICATION_0)
-								contentView.setTextViewText(R.id.text1,
-										mSipdroidEngine.user_profiles[0].username+"@"+
-										mSipdroidEngine.user_profiles[0].realm_orig);
-							else
-								contentView.setTextViewText(R.id.text1,
-									mSipdroidEngine.user_profiles[type-REGISTER_NOTIFICATION].username+"@"+
-									mSipdroidEngine.user_profiles[type-REGISTER_NOTIFICATION].realm_orig);
+						if (mSipdroidEngine != null) {
+							String callerId = PreferenceManager.getDefaultSharedPreferences(mContext).getString(org.sipdroid.sipua.ui.Settings.PREF_FROMUSER+(type!=REGISTER_NOTIFICATION?type-REGISTER_NOTIFICATION:""), "");
+							if (callerId == null || callerId.length() == 0) {
+							    if (mSipdroidEngine.user_profiles[type-REGISTER_NOTIFICATION] != null && mSipdroidEngine.user_profiles[type-REGISTER_NOTIFICATION].username != null) {
+							        callerId = mSipdroidEngine.user_profiles[type-REGISTER_NOTIFICATION].username;
+							    } else {
+							        callerId = "Sipdroid";
+							    }
+							}
+							contentView.setTextViewText(R.id.text1, callerId);
+						}
 	        		} else
 						contentView.setTextViewText(R.id.text1, text);
 					notification.setCustomContentView(contentView);
@@ -630,7 +632,7 @@ import org.zoolu.sip.provider.SipProvider;
 			if (mode == -1)
 				mode = speakermode();
 			if (mode == AudioManager.MODE_NORMAL)
-				Receiver.onText(Receiver.CALL_NOTIFICATION, mContext.getString(R.string.menu_speaker), android.R.drawable.stat_sys_speakerphone,Receiver.ccCall.base);
+				Receiver.onText(Receiver.CALL_NOTIFICATION, mContext.getString(R.string.menu_speaker), R.drawable.ic_volume_up_24,Receiver.ccCall.base);
 			else if (bluetooth > 0)
 				Receiver.onText(Receiver.CALL_NOTIFICATION, mContext.getString(R.string.menu_bluetooth), R.drawable.stat_sys_phone_call_bluetooth,Receiver.ccCall.base);
 			else switch (call_state) {
@@ -866,3 +868,4 @@ import org.zoolu.sip.provider.SipProvider;
 	        }
 		}   
 }
+

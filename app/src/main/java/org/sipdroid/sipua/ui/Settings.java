@@ -256,6 +256,11 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            setTheme(android.R.style.Theme_DeviceDefault_DayNight);
+        } else {
+            setTheme(android.R.style.Theme_DeviceDefault);
+        }
 		super.onCreate(savedInstanceState);
 
     	if (Receiver.mContext == null) Receiver.mContext = this;
@@ -312,10 +317,10 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-	    menu.add(0, MENU_IMPORT, 0, getString(R.string.settings_profile_menu_import)).setIcon(android.R.drawable.ic_menu_upload);
-	    menu.add(0, MENU_EXPORT, 0, getString(R.string.settings_profile_menu_export)).setIcon(android.R.drawable.ic_menu_save);
-	    menu.add(0, MENU_DELETE, 0, getString(R.string.settings_profile_menu_delete)).setIcon(android.R.drawable.ic_menu_delete);
-	    menu.add(0, MENU_ABOUT, 0, getString(R.string.menu_about)).setIcon(android.R.drawable.ic_menu_info_details);
+	    menu.add(0, MENU_IMPORT, 0, getString(R.string.settings_profile_menu_import)).setIcon(R.drawable.ic_upload_24);
+	    menu.add(0, MENU_EXPORT, 0, getString(R.string.settings_profile_menu_export)).setIcon(R.drawable.ic_save_24);
+	    menu.add(0, MENU_DELETE, 0, getString(R.string.settings_profile_menu_delete)).setIcon(R.drawable.ic_delete_24);
+	    menu.add(0, MENU_ABOUT, 0, getString(R.string.menu_about)).setIcon(R.drawable.ic_info_24);
 	    return true;
     }
 
@@ -331,7 +336,7 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
 	            	// Show dialog with the files
 	    			new AlertDialog.Builder(this)
 	    			.setTitle(getString(R.string.settings_profile_dialog_profiles_title))
-	    			.setIcon(android.R.drawable.ic_menu_upload)
+	    			.setIcon(R.drawable.ic_upload_24)
 	    			.setItems(profileFiles, profileOnClick)
 	    			.show();
             	} else {
@@ -348,13 +353,13 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
             	profileFiles = getProfileList();
             	new AlertDialog.Builder(this)
                 .setTitle(getString(R.string.settings_profile_dialog_delete_title))
-                .setIcon(android.R.drawable.ic_menu_delete)
+                .setIcon(R.drawable.ic_delete_24)
     			.setItems(profileFiles, new DialogInterface.OnClickListener() {
     				// Ask the user to be sure to delete it
     				public void onClick(DialogInterface dialog, int whichItem) {
         				profileToDelete = whichItem;
     					new AlertDialog.Builder(context)
-    	                .setIcon(android.R.drawable.ic_dialog_alert)
+    	                .setIcon(R.drawable.ic_warning_24)
     	                .setTitle(getString(R.string.settings_profile_dialog_delete_title))
     	                .setMessage(getString(R.string.settings_profile_dialog_delete_text, profileFiles[whichItem]))
     	                .setPositiveButton(android.R.string.ok, deleteOkButtonClick)
@@ -369,7 +374,7 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
     			new AlertDialog.Builder(this)
     			.setMessage(getString(R.string.about).replace("\\n","\n").replace("${VERSION}", Sipdroid.getVersion(this)))
     			.setTitle(getString(R.string.menu_about))
-    			.setIcon(R.drawable.icon22)
+    			.setIcon(R.drawable.icon)
     			.setCancelable(true)
     			.show();
     			break;
@@ -638,3 +643,5 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
 		edit.commit();
 	}
 }
+
+

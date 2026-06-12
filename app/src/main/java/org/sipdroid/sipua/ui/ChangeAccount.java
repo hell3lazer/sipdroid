@@ -20,13 +20,13 @@ package org.sipdroid.sipua.ui;
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
-public class ChangeAccount extends Activity {
+public class ChangeAccount extends AppCompatActivity {
 
 	public static int getPref(Context context) {
 		return PreferenceManager.getDefaultSharedPreferences(context).getInt(Settings.PREF_ACCOUNT, Settings.DEFAULT_ACCOUNT);

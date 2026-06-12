@@ -312,4 +312,16 @@
 <string name="help_speakerphone">Press and hold volume buttons to force talk</string>
 <string name="menu_create">New PBX linked to my Google Voice</string>
 
+<string-array name="theme_display_values">
+    <item>System default</item>
+    <item>Light Theme</item>
+    <item>Dark Theme</item>
+</string-array>
+<string-array name="theme_values">
+    <item>-1</item>
+    <item>1</item>
+    <item>2</item>
+</string-array>
+<string name="settings_theme">Theme</string>
+
 </resources>

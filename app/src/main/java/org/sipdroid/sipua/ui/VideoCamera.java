@@ -164,7 +164,7 @@ public class VideoCamera extends CallScreen implements
         mLocationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
         //setDefaultKeyMode(DEFAULT_KEYS_SHORTCUT);
-        requestWindowFeature(Window.FEATURE_PROGRESS);
+        supportRequestWindowFeature(Window.FEATURE_PROGRESS);
         setScreenOnFlag();
         setContentView(R.layout.video_camera);
 

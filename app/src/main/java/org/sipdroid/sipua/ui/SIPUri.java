@@ -44,7 +44,7 @@ public class SIPUri extends Activity {
 			new AlertDialog.Builder(this)
 			.setMessage(R.string.notfast)
 			.setTitle(R.string.app_name)
-			.setIcon(R.drawable.icon22)
+			.setIcon(R.drawable.icon)
 			.setCancelable(true)
 			.setOnCancelListener(new OnCancelListener() {
 				public void onCancel(DialogInterface dialog) {
@@ -98,7 +98,7 @@ public class SIPUri extends Activity {
 			final String items[] = target.split("&");
 			item = 0;
 			AlertDialog.Builder alert = new AlertDialog.Builder(this)
-				.setIcon(R.drawable.icon22)
+				.setIcon(R.drawable.icon)
 				.setTitle(R.string.menu_call)
 				.setOnCancelListener(new OnCancelListener() {
 					public void onCancel(DialogInterface dialog) {
@@ -138,3 +138,4 @@ public class SIPUri extends Activity {
 	    }
 	 
 }
+

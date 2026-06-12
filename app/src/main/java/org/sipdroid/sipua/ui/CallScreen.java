@@ -12,7 +12,7 @@ import org.sipdroid.sipua.R;
 import org.sipdroid.sipua.UserAgent;
 import org.sipdroid.sipua.ui.InstantAutoCompleteTextView;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.app.AlertDialog;
 import android.app.KeyguardManager;
 import android.app.KeyguardManager.OnKeyguardExitResult;
@@ -52,7 +52,7 @@ import android.widget.EditText;
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-public class CallScreen extends Activity implements DialogInterface.OnClickListener {
+public class CallScreen extends AppCompatActivity implements DialogInterface.OnClickListener {
 	public static final int FIRST_MENU_ID = Menu.FIRST;
 	public static final int HANG_UP_MENU_ITEM = FIRST_MENU_ID + 1;
 	public static final int HOLD_MENU_ITEM = FIRST_MENU_ID + 2;
@@ -73,19 +73,19 @@ public class CallScreen extends Activity implements DialogInterface.OnClickListe
 		boolean result = super.onCreateOptionsMenu(menu);
 
 		MenuItem m = menu.add(0, HOLD_MENU_ITEM, 0, R.string.menu_hold);
-		m.setIcon(android.R.drawable.stat_sys_phone_call_on_hold);
+		m.setIcon(R.drawable.ic_call_hold_24);
 		m = menu.add(0, SPEAKER_MENU_ITEM, 0, R.string.menu_speaker);
-		m.setIcon(android.R.drawable.stat_sys_speakerphone);
+		m.setIcon(R.drawable.ic_volume_up_24);
 		m = menu.add(0, MUTE_MENU_ITEM, 0, R.string.menu_mute);
-		m.setIcon(android.R.drawable.stat_notify_call_mute);
+		m.setIcon(R.drawable.ic_mic_off_24);
 		m = menu.add(0, ANSWER_MENU_ITEM, 0, R.string.menu_answer);
-		m.setIcon(android.R.drawable.ic_menu_call);
+		m.setIcon(R.drawable.ic_call);
 		m = menu.add(0, BLUETOOTH_MENU_ITEM, 0, R.string.menu_bluetooth);
 		m.setIcon(R.drawable.stat_sys_phone_call_bluetooth);
 		m = menu.add(0, TRANSFER_MENU_ITEM, 0, R.string.menu_transfer);
-		m.setIcon(android.R.drawable.ic_menu_call);			
+		m.setIcon(R.drawable.ic_call);			
 		m = menu.add(0, VIDEO_MENU_ITEM, 0, R.string.menu_video);
-		m.setIcon(android.R.drawable.ic_menu_camera);
+		m.setIcon(R.drawable.ic_camera_24);
 		m = menu.add(0, HANG_UP_MENU_ITEM, 0, R.string.menu_endCall);
 		m.setIcon(R.drawable.ic_menu_end_call);
 				
@@ -280,3 +280,4 @@ public class CallScreen extends Activity implements DialogInterface.OnClickListe
 	}
 
 }
+

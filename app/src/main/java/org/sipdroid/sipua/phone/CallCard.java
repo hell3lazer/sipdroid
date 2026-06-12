@@ -377,7 +377,7 @@ public class CallCard extends FrameLayout
         updatePhotoForCallState(call);
 
         // Set the background frame color based on the state of the call.
-        setMainCallCardBackgroundResource(callCardBackgroundResid);
+        // setMainCallCardBackgroundResource(callCardBackgroundResid);
         // (Text colors are set in updateCardTitleWidgets().)
     }
 

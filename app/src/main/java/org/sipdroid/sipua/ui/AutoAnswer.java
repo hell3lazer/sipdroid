@@ -20,14 +20,14 @@ package org.sipdroid.sipua.ui;
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.SharedPreferences.Editor;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
-public class AutoAnswer extends Activity {
+public class AutoAnswer extends AppCompatActivity {
 	AudioManager am;
 
 	boolean getMode() {

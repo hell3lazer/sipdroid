@@ -34,9 +34,9 @@ public class PSTN extends Activity {
 		if (uri.indexOf(":") >= 0) {
 			number = uri.substring(uri.indexOf(":")+1);
 			if (!number.equals("")) {
+				PreferenceManager.getDefaultSharedPreferences(Receiver.mContext).edit().putBoolean("bypass_redirection", true).commit();
 		        Intent intent = new Intent(Intent.ACTION_CALL,
-		                Uri.fromParts("tel", Uri.decode(number)+
-		                		(!PreferenceManager.getDefaultSharedPreferences(Receiver.mContext).getString(Settings.PREF_PREF, Settings.DEFAULT_PREF).equals(Settings.VAL_PREF_PSTN) ? "+" : ""), null));
+		                Uri.fromParts("tel", Uri.decode(number), null));
 		        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		        Receiver.mContext.startActivity(intent);
 			}

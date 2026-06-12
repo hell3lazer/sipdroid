@@ -37,7 +37,7 @@
 	<uses-feature android:name="android.hardware.telephony" android:required="false"/>
 	<uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
 	<uses-feature android:name="android.hardware.wifi" android:required="false"/>
-	<application android:icon="@drawable/icon64" android:label="@string/app_name" android:theme="@style/MyHoloTheme">
+	<application android:name="org.sipdroid.sipua.SipdroidApp" android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@style/MyHoloTheme">
         <activity android:name="org.sipdroid.sipua.ui.Sipdroid" android:label="@string/app_name" android:launchMode="singleInstance"
         	android:exported="true" android:configChanges="orientation|keyboardHidden" android:showWhenLocked="true" android:showOnLockScreen="true">
             <intent-filter>
@@ -134,6 +134,13 @@
         </receiver>
        	<service android:name=".ui.RegisterService" android:label="@string/app_name"
 			android:foregroundServiceType="phoneCall"/>
+        <service android:name=".ui.SipCallRedirectionService"
+            android:permission="android.permission.BIND_CALL_REDIRECTION_SERVICE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.telecom.CallRedirectionService"/>
+            </intent-filter>
+        </service>
     </application>
 	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
 	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"></uses-permission>

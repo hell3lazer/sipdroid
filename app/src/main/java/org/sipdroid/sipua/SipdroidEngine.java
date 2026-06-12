@@ -422,7 +422,7 @@ public class SipdroidEngine implements RegisterAgentListener {
 			}
 			Receiver.MWI_account = vmacc;
 			if (lastmsgs[i] == null || !msgs.equals(lastmsgs[i])) {
-				Receiver.onText(Receiver.MWI_NOTIFICATION, msgs,android.R.drawable.stat_notify_voicemail,0);
+				Receiver.onText(Receiver.MWI_NOTIFICATION, msgs,R.drawable.ic_voicemail_24,0);
 				lastmsgs[i] = msgs;
 			}
 		} else {
@@ -587,7 +587,7 @@ public class SipdroidEngine implements RegisterAgentListener {
 	
 	public void togglemute() {
 		if (ua.muteMediaApplication())
-			Receiver.onText(Receiver.CALL_NOTIFICATION, getUIContext().getString(R.string.menu_mute), android.R.drawable.stat_notify_call_mute,Receiver.ccCall.base);
+			Receiver.onText(Receiver.CALL_NOTIFICATION, getUIContext().getString(R.string.menu_mute), R.drawable.ic_mic_off_24,Receiver.ccCall.base);
 		else
 			Receiver.progress();
 	}
@@ -617,3 +617,4 @@ public class SipdroidEngine implements RegisterAgentListener {
 		}
 	}
 }
+

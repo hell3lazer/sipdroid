@@ -20,11 +20,11 @@
 
 package org.sipdroid.sipua.ui;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class Activity2 extends Activity {
+public class Activity2 extends AppCompatActivity {
 	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     	Intent startActivity = new Intent();

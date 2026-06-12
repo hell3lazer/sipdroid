@@ -21,7 +21,7 @@ package org.sipdroid.sipua.ui;
  */
 
 import android.Manifest;
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -29,7 +29,7 @@ import android.os.Bundle;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
 
-public class SIP extends Activity {
+public class SIP extends AppCompatActivity {
 
 	void callPSTN(String uri) {
 		String number;

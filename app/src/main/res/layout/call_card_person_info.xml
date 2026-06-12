@@ -35,11 +35,14 @@
          size, we still draw the picture frame at its normal size, so
          you see the white border *and* lots of gray space around the
          photo...  Need to confirm this is OK. -->
-    <ImageView android:id="@+id/photo"
-               android:layout_width="116dp"
-               android:layout_height="116dp"
-               android:scaleType="center"
-               android:background="@drawable/incall_photo_border"
+    <com.google.android.material.imageview.ShapeableImageView 
+               xmlns:app="http://schemas.android.com/apk/res-auto"
+               android:id="@+id/photo"
+               android:layout_width="160dp"
+               android:layout_height="160dp"
+               android:scaleType="centerCrop"
+               app:shapeAppearanceOverlay="@style/CircleStyle"
+               android:visibility="gone"
                />
 
     <!-- Placeholder to add some space between the photo and name/number
@@ -53,10 +56,13 @@
     <TextView android:id="@+id/name"
               android:gravity="center_horizontal"
               android:textAppearance="?android:attr/textAppearanceLarge"
-              android:textSize="28sp"
+              android:textSize="40sp"
+              android:textColor="?android:attr/textColorPrimary"
+              android:fontFamily="sans-serif-light"
               android:singleLine="true"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_marginBottom="8dp"
               />
 
     <!-- Label (like "Mobile" or "Work", if present) and phone number, side by side -->

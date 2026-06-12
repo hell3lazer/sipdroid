@@ -30,7 +30,7 @@ import org.sipdroid.sipua.UserAgent;
 import org.zoolu.tools.Random;
 import android.Manifest;
 import android.annotation.TargetApi;
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
 import android.content.ContentResolver;
@@ -68,7 +68,7 @@ import android.widget.AdapterView.OnItemClickListener;
 // for modifying it additional terms according to section 7, GPL apply
 // see ADDITIONAL_TERMS.txt
 /////////////////////////////////////////////////////////////////////
-public class Sipdroid extends Activity implements OnDismissListener {
+public class Sipdroid extends AppCompatActivity implements OnDismissListener {
 
 	public static final boolean release = true;
 	public static final boolean market = false;
@@ -111,7 +111,7 @@ public class Sipdroid extends Activity implements OnDismissListener {
 					permd = new AlertDialog.Builder(this)
 					.setMessage(R.string.permhelp)
 					.setTitle("Permissions")
-					.setIcon(R.drawable.icon22)
+					.setIcon(R.drawable.icon)
 					.setCancelable(true)
 					.setPositiveButton("OK",new DialogInterface.OnClickListener() {
 		                public void onClick(DialogInterface dialog, int whichButton) {
@@ -123,6 +123,15 @@ public class Sipdroid extends Activity implements OnDismissListener {
 				}
     	}
     	
+	    	if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.Q) {
+	            android.app.role.RoleManager roleManager = (android.app.role.RoleManager) getSystemService(Context.ROLE_SERVICE);
+	            if (roleManager != null && roleManager.isRoleAvailable(android.app.role.RoleManager.ROLE_CALL_REDIRECTION) &&
+	                !roleManager.isRoleHeld(android.app.role.RoleManager.ROLE_CALL_REDIRECTION)) {
+	                Intent roleIntent = roleManager.createRequestRoleIntent(android.app.role.RoleManager.ROLE_CALL_REDIRECTION);
+	                startActivityForResult(roleIntent, 1);
+	            }
+	    	}
+
 	    ContentResolver content = getContentResolver();
 	    Cursor cursor = content.query(Calls.CONTENT_URI,
 	            PROJECTION, Calls.NUMBER+" like ?", new String[] { "%@%" }, Calls.DEFAULT_SORT_ORDER);
@@ -223,7 +232,7 @@ public class Sipdroid extends Activity implements OnDismissListener {
 	public void onCreate(Bundle icicle) {
 		super.onCreate(icicle);
 
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.sipdroid);
 		sip_uri_box = (AutoCompleteTextView) findViewById(R.id.txt_callee);
 		sip_uri_box2 = (AutoCompleteTextView) findViewById(R.id.txt_callee2);
@@ -261,8 +270,8 @@ public class Sipdroid extends Activity implements OnDismissListener {
 		});
 		on(this,true);
 
-		Button contactsButton = (Button) findViewById(R.id.contacts_button);
-		contactsButton.setOnClickListener(new Button.OnClickListener() {
+		View contactsButton = findViewById(R.id.contacts_button);
+		contactsButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				Intent myIntent = new Intent(Intent.ACTION_DIAL);
 				startActivity(myIntent);
@@ -271,22 +280,11 @@ public class Sipdroid extends Activity implements OnDismissListener {
 
 		final Context mContext = this;
 
-		Button settingsButton = (Button) findViewById(R.id.settings_button);
-		settingsButton.setOnClickListener(new Button.OnClickListener() {
+		View settingsButton = findViewById(R.id.settings_button);
+		settingsButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 					Intent myIntent = new Intent(mContext,org.sipdroid.sipua.ui.Settings.class);
 				startActivity(myIntent);
-			}
-		});
-		Button exitButton = (Button) findViewById(R.id.exit_button);
-		exitButton.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				on(mContext,false);
-				Receiver.engine(mContext).halt();
-				Receiver.mSipdroidEngine = null;
-				Receiver.reRegister(0);
-				stopService(new Intent(mContext,RegisterService.class));
-				finish();
 			}
 		});
 
@@ -403,11 +401,11 @@ public class Sipdroid extends Activity implements OnDismissListener {
 		boolean result = super.onCreateOptionsMenu(menu);
 
 		MenuItem m = menu.add(0, ABOUT_MENU_ITEM, 0, R.string.menu_about);
-		m.setIcon(android.R.drawable.ic_menu_info_details);
+		m.setIcon(R.drawable.ic_info_24);
 		m = menu.add(0, EXIT_MENU_ITEM, 0, R.string.menu_exit);
-		m.setIcon(android.R.drawable.ic_menu_close_clear_cancel);
+		m.setIcon(R.drawable.ic_cancel_24);
 		m = menu.add(0, CONFIGURE_MENU_ITEM, 0, R.string.menu_settings);
-		m.setIcon(android.R.drawable.ic_menu_preferences);
+		m.setIcon(R.drawable.ic_preferences_24);
 						
 		return result;
 	}
@@ -423,14 +421,14 @@ public class Sipdroid extends Activity implements OnDismissListener {
 			m_AlertDlg = new AlertDialog.Builder(this)
 				.setMessage(R.string.empty)
 				.setTitle(R.string.app_name)
-				.setIcon(R.drawable.icon22)
+				.setIcon(R.drawable.icon)
 				.setCancelable(true)
 				.show();
 		else if (!Receiver.engine(this).call(target,true))
 			m_AlertDlg = new AlertDialog.Builder(this)
 				.setMessage(R.string.notfast)
 				.setTitle(R.string.app_name)
-				.setIcon(R.drawable.icon22)
+				.setIcon(R.drawable.icon)
 				.setCancelable(true)
 				.show();
 	}
@@ -449,7 +447,7 @@ public class Sipdroid extends Activity implements OnDismissListener {
 			m_AlertDlg = new AlertDialog.Builder(this)
 			.setMessage(getString(R.string.about).replace("\\n","\n").replace("${VERSION}", getVersion(this)))
 			.setTitle(getString(R.string.menu_about))
-			.setIcon(R.drawable.icon22)
+			.setIcon(R.drawable.icon)
 			.setCancelable(true)
 			.show();
 			break;
@@ -505,3 +503,5 @@ public class Sipdroid extends Activity implements OnDismissListener {
 		onResume();
 	}
 }
+
+

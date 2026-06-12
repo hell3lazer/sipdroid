@@ -1,5 +1,13 @@
 <PreferenceScreen
 	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<ListPreference
+		android:key="app_theme"
+		android:title="@string/settings_theme"
+		android:entries="@array/theme_display_values"
+		android:entryValues="@array/theme_values"
+		android:defaultValue="-1" />
+		
 	<PreferenceScreen android:title="@string/settings_account"
 					android:key="account">
 			<EditTextPreference

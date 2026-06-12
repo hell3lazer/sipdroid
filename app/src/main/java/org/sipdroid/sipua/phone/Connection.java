@@ -1,6 +1,7 @@
 package org.sipdroid.sipua.phone;
 
 import org.sipdroid.sipua.ui.Receiver;
+import org.sipdroid.sipua.R;
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.content.ContentResolver;
@@ -274,7 +275,7 @@ public class Connection
 	            ci = ((PhoneUtils.CallerInfoToken) o).currentInfo;
 	        }
 	        if (callLogType == CallLog.Calls.MISSED_TYPE)
-	        	Receiver.onText(Receiver.MISSED_CALL_NOTIFICATION, ci != null && ci.name != null?ci.name:number, android.R.drawable.stat_notify_missed_call, 0);
+	        	Receiver.onText(Receiver.MISSED_CALL_NOTIFICATION, ci != null && ci.name != null?ci.name:number, R.drawable.ic_missed_call_24, 0);
 	        addCall(ci, Receiver.mContext, number, isPrivateNumber,
 	                callLogType, date, (int) duration / 1000);
 	    }

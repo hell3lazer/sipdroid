@@ -18,10 +18,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/top"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_marginTop="1dip"
-    android:background="@color/dtmf_dialer_background">
+    android:background="?android:attr/colorBackground">
     
     <!-- TODO: Need new layout, restore [android:layout_height="155dip"] -->
     <!-- Include the layout for the dtmf display -->
