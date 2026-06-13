@@ -35,10 +35,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
-import android.hardware.Sensor;
-import android.hardware.SensorEvent;
-import android.hardware.SensorEventListener;
-import android.hardware.SensorManager;
 import android.media.AudioManager;
 import android.media.ToneGenerator;
 import android.net.Uri;
@@ -62,7 +58,7 @@ import android.widget.RelativeLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class InCallScreen extends CallScreen implements View.OnClickListener, SensorEventListener {
+public class InCallScreen extends CallScreen implements View.OnClickListener {
 
 	final int MSG_ANSWER = 1;
 	final int MSG_ANSWER_SPEAKER = 2;
@@ -74,9 +70,6 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
 	
 	CallCard mCallCard;
 	Phone ccPhone;
-	SensorManager sensorManager;
-    Sensor proximitySensor;
-    boolean first;
 
 	@Override
 	public void onStop() {
@@ -86,7 +79,6 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
 		mHandler.sendEmptyMessageDelayed(MSG_ACCEPT_FORCE, 1000);
 		if (Receiver.call_state == UserAgent.UA_STATE_IDLE)
 			finish();
-		sensorManager.unregisterListener(this);
 		started = false;
 	}
 	
@@ -97,10 +89,6 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
 		if (Receiver.call_state == UserAgent.UA_STATE_IDLE)
      		mHandler.sendEmptyMessageDelayed(MSG_BACK, Receiver.call_end_reason == -1?
     				2000:5000);
-	    first = true;
-	    pactive = false;
-	    pactivetime = SystemClock.elapsedRealtime();
-	    sensorManager.registerListener(this,proximitySensor,SensorManager.SENSOR_DELAY_NORMAL);
 	    started = true;
 	    Receiver.progress();
 	}
@@ -108,6 +96,9 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
 	@Override
 	public void onPause() {
 		super.onPause();
+        if (proximityWakeLock != null && proximityWakeLock.isHeld()) {
+            proximityWakeLock.release();
+        }
     	if (!Sipdroid.release) Log.i("SipUA:","on pause");
     	switch (Receiver.call_state) {
     	case UserAgent.UA_STATE_INCOMING_CALL:
@@ -138,10 +129,39 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
 	
 	Context mContext = this;
 
+    private android.os.PowerManager.WakeLock proximityWakeLock;
+
+    private void updateProximity() {
+        if (android.os.Build.VERSION.SDK_INT >= 21) {
+            if (proximityWakeLock == null) {
+                android.os.PowerManager pm = (android.os.PowerManager) getSystemService(Context.POWER_SERVICE);
+                try {
+                    proximityWakeLock = pm.newWakeLock(android.os.PowerManager.PROXIMITY_SCREEN_OFF_WAKE_LOCK, "AndroidSip:ProximityLock");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+            if (proximityWakeLock != null) {
+                boolean shouldHold = (RtpStreamReceiver.speakermode != AudioManager.MODE_NORMAL) &&
+                                     (Receiver.headset == 0) &&
+                                     (Receiver.docked == 0) &&
+                                     (Receiver.call_state == UserAgent.UA_STATE_INCALL || 
+                                      Receiver.call_state == UserAgent.UA_STATE_INCOMING_CALL || 
+                                      Receiver.call_state == UserAgent.UA_STATE_OUTGOING_CALL);
+                if (shouldHold && !proximityWakeLock.isHeld()) {
+                    proximityWakeLock.acquire();
+                } else if (!shouldHold && proximityWakeLock.isHeld()) {
+                    proximityWakeLock.release();
+                }
+            }
+        }
+    }
+
 	@Override
 	public void onResume() {
 		super.onResume();
     	if (!Sipdroid.release) Log.i("SipUA:","on resume");
+        updateProximity();
 		switch (Receiver.call_state) {
 		case UserAgent.UA_STATE_INCOMING_CALL:
 			if (Receiver.pstn_state == null || Receiver.pstn_state.equals("IDLE"))
@@ -180,9 +200,7 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
 					long time;
 					ToneGenerator tg = null;
 	
-					if (Settings.System.getInt(getContentResolver(),
-							Settings.System.DTMF_TONE_WHEN_DIALING, 1) == 1)
-						tg = new ToneGenerator(AudioManager.STREAM_VOICE_CALL, (int)(ToneGenerator.MAX_VOLUME*2*org.sipdroid.sipua.ui.Settings.getEarGain()));
+						tg = new ToneGenerator(AudioManager.STREAM_VOICE_CALL, ToneGenerator.MAX_VOLUME);
 					for (;;) {
 						if (!running) {
 							t = null;
@@ -234,6 +252,7 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
     			moveBack();
     			break;
     		case MSG_TICK:
+                updateProximity();
     			mCodec.setText(RtpStreamReceiver.getCodec());
     			if (RtpStreamReceiver.good != 0) {
     				if (RtpStreamReceiver.timeout != 0)
@@ -256,9 +275,6 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
     			break;
     		case MSG_ACCEPT:
     		case MSG_ACCEPT_FORCE:
-    	        setScreenBacklight((float) -1);
-    	        getWindow().setFlags(0, 
-                        WindowManager.LayoutParams.FLAG_FULLSCREEN);
     	        if (mDialerDrawer != null) {
 					mDialerDrawer.setVisibility(View.GONE);
 					mDialerDrawer.setVisibility(View.VISIBLE);
@@ -316,23 +332,45 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
             mBtnMute.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Receiver.engine(mContext).togglemute();
+                    v.setSelected(!v.isSelected());
+                    v.post(new Runnable() {
+                        public void run() {
+                            Receiver.engine(mContext).togglemute();
+                        }
+                    });
                 }
             });
             mBtnSpeaker.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     if (RtpStreamReceiver.speakermode == AudioManager.MODE_NORMAL) {
-                        Receiver.engine(mContext).speaker(AudioManager.MODE_IN_CALL);
+                        v.setSelected(false);
+                        v.post(new Runnable() {
+                            public void run() {
+                                Receiver.engine(mContext).speaker(AudioManager.MODE_IN_COMMUNICATION);
+                                updateProximity();
+                            }
+                        });
                     } else {
-                        Receiver.engine(mContext).speaker(AudioManager.MODE_NORMAL);
+                        v.setSelected(true);
+                        v.post(new Runnable() {
+                            public void run() {
+                                Receiver.engine(mContext).speaker(AudioManager.MODE_NORMAL);
+                                updateProximity();
+                            }
+                        });
                     }
                 }
             });
             mBtnHold.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Receiver.engine(mContext).togglehold();
+                    v.setSelected(!v.isSelected());
+                    v.post(new Runnable() {
+                        public void run() {
+                            Receiver.engine(mContext).togglehold();
+                        }
+                    });
                 }
             });
             mBtnEndCall.setOnClickListener(new View.OnClickListener() {
@@ -459,9 +497,6 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
 		setContentView(R.layout.incall);
 		
 		initInCallScreen();
-		
-		sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
-        proximitySensor = sensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
 
         if(!android.os.Build.BRAND.equalsIgnoreCase("archos"))
         	setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_NOSENSOR);
@@ -622,45 +657,12 @@ public class InCallScreen extends CallScreen implements View.OnClickListener, Se
 		return false;
 	}
 
-	@Override
-	public void onAccuracyChanged(Sensor sensor, int accuracy) {
-	}
-
 	void setScreenBacklight(float a) {
         WindowManager.LayoutParams lp = getWindow().getAttributes(); 
         lp.screenBrightness = a; 
         getWindow().setAttributes(lp);		
 	}
 
-	static final float PROXIMITY_THRESHOLD = 5.0f;
 	public static boolean pactive;
 	public static long pactivetime;
-	
-	@SuppressLint("NewApi")
-	@Override
-	public void onSensorChanged(SensorEvent event) {
-		boolean keepon = PreferenceManager.getDefaultSharedPreferences(mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_KEEPON, org.sipdroid.sipua.ui.Settings.DEFAULT_KEEPON);
-		if (first) {
-			first = false;
-			return;
-		}
-		float distance = event.values[0];
-        boolean active = (distance >= 0.0 && distance < PROXIMITY_THRESHOLD && distance < event.sensor.getMaximumRange());
-		if (!keepon ||
-				Receiver.call_state == UserAgent.UA_STATE_HOLD || Receiver.call_state == UserAgent.UA_STATE_INCOMING_CALL
-				|| RtpStreamReceiver.speakermode == AudioManager.MODE_NORMAL || Receiver.headset > 0 || Receiver.docked > 0)
-			active = false;
-        pactive = active;
-        pactivetime = SystemClock.elapsedRealtime();
-        if (!active) {
-     		mHandler.sendEmptyMessageDelayed(MSG_ACCEPT, 1000);
-     		return;
-        }
-        mHandler.removeMessages(MSG_ACCEPT);
-        setScreenBacklight((float) 0.1);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, 
-                                WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        closeOptionsMenu();
-		mDialerDrawer.setVisibility(View.GONE);
-	}
 }

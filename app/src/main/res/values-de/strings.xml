@@ -2,9 +2,9 @@
 <!--
  * Copyright (C) 2009 The Sipdroid Open Source Project
  *
- * This file is part of Sipdroid (http://www.sipdroid.org)
+ * This file is part of Android SIP (http://www.sipdroid.org)
  *
- * Sipdroid is free software; you can redistribute it and/or modify
+ * Android SIP is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 3 of the License, or
  * (at your option) any later version.
@@ -19,7 +19,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 /////////////////////////////////////////////////////////////////////
-// these are the main messages of Sipdroid
+// these are the main messages of Android SIP
 // for modifying them additional terms according to section 7, GPL apply
 // see ADDITIONAL_TERMS.txt
 /////////////////////////////////////////////////////////////////////
@@ -29,9 +29,9 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
 <string name="pstn_name">Telefon-Anruf</string>
-<string name="sip_name">Sipdroid-Anruf, wenn verfügbar</string>
+<string name="sip_name">Android SIP-Anruf, wenn verfügbar</string>
 
-<string name="about">Sipdroid ist ein freier SIP-Client für Android
+<string name="about">Android SIP ist ein freier SIP-Client für Android
 \n
 \nSiehe http://sipdroid.org für weitere Infos
 \n
@@ -112,9 +112,9 @@
 <string name="settings_check">Prüfen Sie, ob Ihr Mobilfunkanbieter VoIP-Nutzung erlaubt</string>
 <string name="settings_vpn2">PBXes bietet einen VPN-Dienst gratis an, siehe PBXes >> HILFE</string>
 
-<string name="dialog_default">Sipdroid ist nicht als Telefon voreingestellt. Möchten Sie es als Telefon voreinstellen?
+<string name="dialog_default">Android SIP ist nicht als Telefon voreingestellt. Möchten Sie es als Telefon voreinstellen?
 \n
-\nAuch wenn Sie mit \'Nein\' antworten, können Sie aus dem System über Sipdroid wählen, indem Sie \'+\' hinter eine Nummer im Telefon anhängen oder bei einem Kontakt auf \'Textnachricht an\' klicken.</string>
+\nAuch wenn Sie mit \'Nein\' antworten, können Sie aus dem System über Android SIP wählen, indem Sie \'+\' hinter eine Nummer im Telefon anhängen oder bei einem Kontakt auf \'Textnachricht an\' klicken.</string>
 <string name="dialog_port">Möchten Sie den SIP-Port von 5060 auf 5061 ändern, um die Zuverlässigkeit zu erhöhen?</string>
 <string name="yes">Ja</string>
 <string name="no">Nein</string>
@@ -123,8 +123,8 @@
 <string name="settings_pref">Bevorzugte Anrufart</string>
 <string name="settings_pref2">Ausnahmen durch \'+\' hinter Nummern anhängen oder auf \'Textnachricht an\' klicken</string>
     <string-array name="pref_display_values">
-        <item>Sipdroid</item>
-        <item>Sipdroid, wenn verfügbar</item>
+        <item>Android SIP</item>
+        <item>Android SIP, wenn verfügbar</item>
         <item>Telefon</item>
         <item>Immer fragen</item>
     </string-array>
@@ -224,3 +224,5 @@
 <string name="help_speakerphone">Sie können die Lautstärkeregler als Sprechtaste verwenden</string>
 
 </resources>
+
+

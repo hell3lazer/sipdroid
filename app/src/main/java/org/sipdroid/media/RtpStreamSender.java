@@ -206,72 +206,6 @@ public class RtpStreamSender extends Thread {
 		running = false;
 	}
 
-	Random random;
-	double smin = 200,s;
-	int nearend;
-	
-	void calc(short[] lin,int off,int len) {
-		int i,j;
-		double sm = 30000,r;
-		
-		for (i = 0; i < len; i += 5) {
-			j = lin[i+off];
-			s = 0.03*Math.abs(j) + 0.97*s;
-			if (s < sm) sm = s;
-			if (s > smin) nearend = 3000*mu/5;
-			else if (nearend > 0) nearend--;
-		}
-		r = (double)len/(100000*mu);
-		if (sm > 2*smin || sm < smin/2)
-			smin = sm*r + smin*(1-r);
-	}
-
-	void calc1(short[] lin,int off,int len) {
-		int i,j;
-		
-		for (i = 0; i < len; i++) {
-			j = lin[i+off];
-			lin[i+off] = (short)(j>>2);
-		}
-	}
-
-	void calc2(short[] lin,int off,int len) {
-		int i,j;
-		
-		for (i = 0; i < len; i++) {
-			j = lin[i+off];
-			lin[i+off] = (short)(j>>1);
-		}
-	}
-
-	void calc10(short[] lin,int off,int len) {
-		int i,j;
-		
-		for (i = 0; i < len; i++) {
-			j = lin[i+off];
-			if (j > 16350)
-				lin[i+off] = 16350<<1;
-			else if (j < -16350)
-				lin[i+off] = -16350<<1;
-			else
-				lin[i+off] = (short)(j<<1);
-		}
-	}
-
-	void noise(short[] lin,int off,int len,double power) {
-		int i,r = (int)(power*2);
-		short ran;
-
-		if (r == 0) r = 1;
-		for (i = 0; i < len; i += 4) {
-			ran = (short)(random.nextInt(r*2)-r);
-			lin[i+off] = ran;
-			lin[i+off+1] = ran;
-			lin[i+off+2] = ran;
-			lin[i+off+3] = ran;
-		}
-	}
-	
 	public static int m;
 	int mu;
 	
@@ -284,9 +218,7 @@ public class RtpStreamSender extends Thread {
 			return;
 		int seqn = 0;
 		long time = 0;
-		double p = 0;
 		boolean improve = PreferenceManager.getDefaultSharedPreferences(Receiver.mContext).getBoolean(Settings.PREF_IMPROVE, Settings.DEFAULT_IMPROVE);
-		int micgain = 0;
 		long last_tx_time = 0;
 		long next_tx_delay;
 		long now;
@@ -335,7 +267,6 @@ public class RtpStreamSender extends Thread {
 		
 		short[] lin = new short[frame_size*(frame_rate+2)];
 		int num,ring = 0,pos;
-		random = new Random();
 		InputStream alerting = null;
 		try {
 			alerting = Receiver.mContext.getAssets().open("alerting");
@@ -350,7 +281,7 @@ public class RtpStreamSender extends Thread {
 					record.release();
 					if (RtpStreamReceiver.samsung) {
 						AudioManager am = (AudioManager) Receiver.mContext.getSystemService(Context.AUDIO_SERVICE);
-						am.setMode(AudioManager.MODE_IN_CALL);
+						am.setMode(AudioManager.MODE_IN_COMMUNICATION);
 						am.setMode(AudioManager.MODE_NORMAL);
 					}
 				}
@@ -365,7 +296,6 @@ public class RtpStreamSender extends Thread {
 					RtpStreamSenderNew_SDK16.aec(record);
 				}
 				record.startRecording();
-				micgain = (int)(Settings.getMicGain()*10);
 			 }
 			 if (muted || Receiver.call_state == UserAgent.UA_STATE_HOLD) {
 				if (Receiver.call_state == UserAgent.UA_STATE_HOLD)
@@ -441,27 +371,18 @@ public class RtpStreamSender extends Thread {
 			 if (!p_type.codec.isValid())
 				 continue;
 			 
+			 // Boost the microphone volume 4x
+			 for (int i = 0; i < num; i++) {
+				 int sample = lin[pos+i] * 4;
+				 if (sample > 32767) sample = 32767;
+				 else if (sample < -32768) sample = -32768;
+				 lin[pos+i] = (short) sample;
+			 }
+			 
 			 // Call recording: Save the frame to the CallRecorder.
 			 if (call_recorder != null)
 			 	call_recorder.writeOutgoing(lin, pos, num);
 
-			 if (RtpStreamReceiver.speakermode == AudioManager.MODE_NORMAL) {
- 				 calc(lin,pos,num);
- 	 			 if (RtpStreamReceiver.nearend != 0 && RtpStreamReceiver.down_time == 0)
-	 				 noise(lin,pos,num,p/2);
-	 			 else if (nearend == 0)
-	 				 p = 0.9*p + 0.1*s;
- 			 } else switch (micgain) {
- 			 case 1:
- 				 calc1(lin,pos,num);
- 				 break;
- 			 case 2:
- 				 calc2(lin,pos,num);
- 				 break;
- 			 case 10:
- 				 calc10(lin,pos,num);
- 				 break;
- 			 }
 			 if (Receiver.call_state != UserAgent.UA_STATE_INCALL &&
 					 Receiver.call_state != UserAgent.UA_STATE_OUTGOING_CALL && alerting != null) {
 				 try {
@@ -518,7 +439,7 @@ public class RtpStreamSender extends Thread {
  				 m = 1;
 		}
 		if (Integer.parseInt(Build.VERSION.SDK) < 5)
-			while (RtpStreamReceiver.getMode() == AudioManager.MODE_IN_CALL)
+			while (RtpStreamReceiver.getMode() == AudioManager.MODE_IN_COMMUNICATION)
 				try {
 					sleep(1000);
 				} catch (InterruptedException e) {

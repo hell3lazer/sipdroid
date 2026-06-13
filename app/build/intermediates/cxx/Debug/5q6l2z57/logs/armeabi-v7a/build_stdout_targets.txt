@@ -1,0 +1,4 @@
+Android NDK: WARNING:B:\user\Antigravity\sipdroid\app\src\main\jni\Android.mk:silkcommon: LOCAL_LDLIBS is always ignored for static libraries    
+make: Nothing to be done for 'bv16_jni'.
+make: Nothing to be done for 'g722_jni'.
+make: Nothing to be done for 'speex_jni'.

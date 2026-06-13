@@ -1,0 +1,112 @@
+{
+  "buildFiles": [
+    "B:\\user\\Antigravity\\sipdroid\\app\\src\\main\\jni\\Android.mk",
+    "B:\\user\\Antigravity\\sipdroid\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\user\\scoop\\apps\\android-clt\\current\\ndk\\25.1.8937393\\ndk-build.cmd",
+      "NDK_PROJECT_PATH\u003dnull",
+      "APP_BUILD_SCRIPT\u003dB:\\user\\Antigravity\\sipdroid\\app\\src\\main\\jni\\Android.mk",
+      "NDK_APPLICATION_MK\u003dB:\\user\\Antigravity\\sipdroid\\app\\src\\main\\jni\\Application.mk",
+      "APP_ABI\u003darmeabi-v7a",
+      "NDK_ALL_ABIS\u003darmeabi-v7a",
+      "NDK_DEBUG\u003d1",
+      "APP_PLATFORM\u003dandroid-19",
+      "NDK_OUT\u003dB:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/obj",
+      "NDK_LIBS_OUT\u003dB:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/lib",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\user\\scoop\\apps\\android-clt\\current\\ndk\\25.1.8937393\\ndk-build.cmd",
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003dB:\\user\\Antigravity\\sipdroid\\app\\src\\main\\jni\\Android.mk",
+    "NDK_APPLICATION_MK\u003dB:\\user\\Antigravity\\sipdroid\\app\\src\\main\\jni\\Application.mk",
+    "APP_ABI\u003darmeabi-v7a",
+    "NDK_ALL_ABIS\u003darmeabi-v7a",
+    "NDK_DEBUG\u003d1",
+    "APP_PLATFORM\u003dandroid-19",
+    "NDK_OUT\u003dB:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/obj",
+    "NDK_LIBS_OUT\u003dB:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/lib",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "silkcommon-debug-armeabi-v7a": {
+      "artifactName": "silkcommon",
+      "buildCommandComponents": [
+        "C:\\Users\\user\\scoop\\apps\\android-clt\\current\\ndk\\25.1.8937393\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dB:\\user\\Antigravity\\sipdroid\\app\\src\\main\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dB:\\user\\Antigravity\\sipdroid\\app\\src\\main\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-19",
+        "NDK_OUT\u003dB:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/obj",
+        "NDK_LIBS_OUT\u003dB:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/lib",
+        "B:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/obj/local/armeabi-v7a/libsilkcommon.a"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "B:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57\\obj\\local\\armeabi-v7a\\libsilkcommon.a",
+      "runtimeFiles": []
+    },
+    "bv16_jni-debug-armeabi-v7a": {
+      "artifactName": "bv16_jni",
+      "buildCommandComponents": [
+        "C:\\Users\\user\\scoop\\apps\\android-clt\\current\\ndk\\25.1.8937393\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dB:\\user\\Antigravity\\sipdroid\\app\\src\\main\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dB:\\user\\Antigravity\\sipdroid\\app\\src\\main\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-19",
+        "NDK_OUT\u003dB:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/obj",
+        "NDK_LIBS_OUT\u003dB:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/lib",
+        "B:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/obj/local/armeabi-v7a/libbv16_jni.so"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "B:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57\\obj\\local\\armeabi-v7a\\libbv16_jni.so",
+      "runtimeFiles": []
+    },
+    "g722_jni-debug-armeabi-v7a": {
+      "artifactName": "g722_jni",
+      "buildCommandComponents": [
+        "C:\\Users\\user\\scoop\\apps\\android-clt\\current\\ndk\\25.1.8937393\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dB:\\user\\Antigravity\\sipdroid\\app\\src\\main\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dB:\\user\\Antigravity\\sipdroid\\app\\src\\main\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-19",
+        "NDK_OUT\u003dB:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/obj",
+        "NDK_LIBS_OUT\u003dB:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/lib",
+        "B:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/obj/local/armeabi-v7a/libg722_jni.so"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "B:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57\\obj\\local\\armeabi-v7a\\libg722_jni.so",
+      "runtimeFiles": []
+    },
+    "speex_jni-debug-armeabi-v7a": {
+      "artifactName": "speex_jni",
+      "buildCommandComponents": [
+        "C:\\Users\\user\\scoop\\apps\\android-clt\\current\\ndk\\25.1.8937393\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dB:\\user\\Antigravity\\sipdroid\\app\\src\\main\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dB:\\user\\Antigravity\\sipdroid\\app\\src\\main\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-19",
+        "NDK_OUT\u003dB:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/obj",
+        "NDK_LIBS_OUT\u003dB:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/lib",
+        "B:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57/obj/local/armeabi-v7a/libspeex_jni.so"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "B:\\user\\Antigravity\\sipdroid\\app\\build\\intermediates\\cxx\\Debug\\5q6l2z57\\obj\\local\\armeabi-v7a\\libspeex_jni.so",
+      "runtimeFiles": []
+    }
+  }
+}

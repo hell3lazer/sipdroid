@@ -2,9 +2,9 @@
 <!--
  * Copyright (C) 2009 The Sipdroid Open Source Project
  *
- * This file is part of Sipdroid (http://www.sipdroid.org)
+ * This file is part of Android SIP (http://www.sipdroid.org)
  *
- * Sipdroid is free software; you can redistribute it and/or modify
+ * Android SIP is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 3 of the License, or
  * (at your option) any later version.
@@ -27,11 +27,11 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-<string name="app_name">Sipdroid</string>
+<string name="app_name">Android SIP</string>
 <string name="pstn_name">電話</string>
-<string name="sip_name">Sipdroid，當可用時</string>
+<string name="sip_name">Android SIP，當可用時</string>
 
-<string name="about">Sipdroid是Android系統下的開源SIP客戶端。
+<string name="about">Android SIP是Android系統下的開源SIP客戶端。
 \n
 \n請瀏覽 http://sipdroid.org 以獲得更多信息。
 \n
@@ -147,21 +147,21 @@
 <string name="settings_check">請確認你的運營商是否允許VoIP電話</string>
 <string name="settings_vpn2">PBXes提供免費VPN服務，請進入www.pbxes.com並點擊HELP獲取相關信息。</string>
 
-<string name="dialog_default">Sipdroid現在不是默認的電話程序，是否要將其設定為默認？
+<string name="dialog_default">Android SIP現在不是默認的電話程序，是否要將其設定為默認？
 \n
-\n如果你選擇了 \'否\'，你仍然可以在撥號時在電話號碼後加上字元\'+\'，或長按聯系人選擇 \'發送簡訊\'以強制使用Sipdroid撥號。</string>
-<string name="dialog_message">是否查看Sipdroid 1.5的視頻介紹？</string>
+\n如果你選擇了 \'否\'，你仍然可以在撥號時在電話號碼後加上字元\'+\'，或長按聯系人選擇 \'發送簡訊\'以強制使用Android SIP撥號。</string>
+<string name="dialog_message">是否查看Android SIP 1.5的視頻介紹？</string>
 <string name="yes">是</string>
 <string name="no">否</string>
 <string name="dontask">不再提示</string>
 
-<string name="settings_pref">Sipdroid優先順序</string>
-<string name="settings_pref2">在撥號時在電話號碼後加上字元\'+\'，或長按聯系人選擇 \'發送簡訊\'以強制使用Sipdroid撥號。</string>
+<string name="settings_pref">Android SIP優先順序</string>
+<string name="settings_pref2">在撥號時在電話號碼後加上字元\'+\'，或長按聯系人選擇 \'發送簡訊\'以強制使用Android SIP撥號。</string>
 
 
     <string-array name="pref_display_values">
-        <item>僅使用Sipdroid</item>
-        <item>當可用時使用Sipdroid</item>
+        <item>僅使用Android SIP</item>
+        <item>當可用時使用Android SIP</item>
         <item>總是使用電話</item>
         <item>Always ask</item>
     </string-array>
@@ -241,9 +241,9 @@
 <string name="settings_callthru">觸發Callthru</string>
 <string name="settings_callthru2">Callthru前綴</string>
 
-<string name="settings_title">Sipdroid設定</string>
+<string name="settings_title">Android SIP設定</string>
 
-<string name="settings_profile_title">Sipdroid設定(<xliff:g id="profile">%s</xliff:g>)</string>
+<string name="settings_profile_title">Android SIP設定(<xliff:g id="profile">%s</xliff:g>)</string>
 <string name="settings_profile_menu_import">匯入</string>
 <string name="settings_profile_menu_delete">刪除</string>
 <string name="settings_profile_dialog_profiles_title">用戶配置</string>
@@ -298,3 +298,5 @@
 <string name="codecs_move_down">下移</string>
 <string name="help_speakerphone">按住音量鍵以強制通話</string>
 </resources>
+
+

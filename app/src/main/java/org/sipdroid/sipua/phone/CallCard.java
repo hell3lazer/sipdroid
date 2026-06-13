@@ -436,7 +436,8 @@ public class CallCard extends FrameLayout
         if (state == Call.State.ACTIVE) {
             // Use the "lower title" (in green).
             mLowerTitleViewGroup.setVisibility(View.VISIBLE);
-            mLowerTitleIcon.setImageResource(R.drawable.ic_incall_ongoing);
+            mLowerTitleIcon.setImageResource(R.drawable.ic_call);
+            mLowerTitleIcon.setColorFilter(0xFF4CAF50, android.graphics.PorterDuff.Mode.SRC_IN);
             mLowerTitle.setText(cardTitle);
             mLowerTitle.setTextColor(mTextColorConnected);
             mElapsedTime.setTextColor(mTextColorConnected);
@@ -453,7 +454,8 @@ public class CallCard extends FrameLayout
             // should probably be used *only* for the normal "Call ended"
             // case.
             mLowerTitleViewGroup.setVisibility(View.VISIBLE);
-            mLowerTitleIcon.setImageResource(R.drawable.ic_incall_end);
+            mLowerTitleIcon.setImageResource(R.drawable.ic_call_end_24);
+            mLowerTitleIcon.setColorFilter(0xFFF44336, android.graphics.PorterDuff.Mode.SRC_IN);
             mLowerTitle.setText(cardTitle);
             mLowerTitle.setTextColor(mTextColorEnded);
             mElapsedTime.setTextColor(mTextColorEnded);

@@ -104,22 +104,22 @@
                 android:gravity="center">
                 
                 <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="72dp" android:layout_height="wrap_content">
-                    <ImageButton android:id="@+id/btn_keypad" android:layout_width="64dp" android:layout_height="64dp" android:background="@drawable/bg_circle_action" android:src="@drawable/ic_dialpad_24" android:tint="#FFFFFF"/>
+                    <ImageButton android:id="@+id/btn_keypad" android:layout_width="64dp" android:layout_height="64dp" android:background="@drawable/bg_circle_action" android:src="@drawable/ic_dialpad_24" android:tint="@color/icon_tint_action"/>
                     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Keypad" android:textSize="14sp" android:layout_marginTop="8dp" android:textColor="?android:attr/textColorPrimary"/>
                 </LinearLayout>
 
                 <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="72dp" android:layout_height="wrap_content" android:layout_marginLeft="12dp">
-                    <ImageButton android:id="@+id/btn_mute" android:layout_width="64dp" android:layout_height="64dp" android:background="@drawable/bg_circle_action" android:src="@drawable/ic_mic_24" android:tint="#FFFFFF"/>
+                    <ImageButton android:id="@+id/btn_mute" android:layout_width="64dp" android:layout_height="64dp" android:background="@drawable/bg_circle_action" android:src="@drawable/ic_mic_24" android:tint="@color/icon_tint_action"/>
                     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mute" android:textSize="14sp" android:layout_marginTop="8dp" android:textColor="?android:attr/textColorPrimary"/>
                 </LinearLayout>
 
                 <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="72dp" android:layout_height="wrap_content" android:layout_marginLeft="12dp">
-                    <ImageButton android:id="@+id/btn_speaker" android:layout_width="64dp" android:layout_height="64dp" android:background="@drawable/bg_circle_action" android:src="@drawable/ic_volume_up_24" android:tint="#FFFFFF"/>
+                    <ImageButton android:id="@+id/btn_speaker" android:layout_width="64dp" android:layout_height="64dp" android:background="@drawable/bg_circle_action" android:src="@drawable/ic_volume_up_24" android:tint="@color/icon_tint_action"/>
                     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Speaker" android:textSize="14sp" android:layout_marginTop="8dp" android:textColor="?android:attr/textColorPrimary"/>
                 </LinearLayout>
 
                 <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="72dp" android:layout_height="wrap_content" android:layout_marginLeft="12dp">
-                    <ImageButton android:id="@+id/btn_hold" android:layout_width="64dp" android:layout_height="64dp" android:background="@drawable/bg_circle_action" android:src="@drawable/ic_pause_24" android:tint="#FFFFFF"/>
+                    <ImageButton android:id="@+id/btn_hold" android:layout_width="64dp" android:layout_height="64dp" android:background="@drawable/bg_circle_action" android:src="@drawable/ic_pause_24" android:tint="@color/icon_tint_action"/>
                     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="More" android:textSize="14sp" android:layout_marginTop="8dp" android:textColor="?android:attr/textColorPrimary"/>
                 </LinearLayout>
 

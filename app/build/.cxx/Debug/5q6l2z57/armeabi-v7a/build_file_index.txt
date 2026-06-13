@@ -1,0 +1,2 @@
+B:\user\Antigravity\sipdroid\app\src\main\jni\Android.mk
+B:\user\Antigravity\sipdroid\app\src\main\jni\Application.mk

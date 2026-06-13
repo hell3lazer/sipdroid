@@ -1,0 +1,587 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 * Copyright (C) 2009 The Sipdroid Open Source Project
+4 * 
+5 * This file is part of Sipdroid (http://www.sipdroid.org)
+6 * 
+7 * Sipdroid is free software; you can redistribute it and/or modify
+8 * it under the terms of the GNU General Public License as published by
+9 * the Free Software Foundation; either version 3 of the License, or
+10 * (at your option) any later version.
+11 * 
+12 * This source code is distributed in the hope that it will be useful,
+13 * but WITHOUT ANY WARRANTY; without even the implied warranty of
+14 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+15 * GNU General Public License for more details.
+16 * 
+17 * You should have received a copy of the GNU General Public License
+18 * along with this source code; if not, write to the Free Software
+19 * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+20/////////////////////////////////////////////////////////////////////
+21// these are the main definitions of Sipdroid
+22// for modifying them additional terms according to section 7, GPL apply
+23// see ADDITIONAL_TERMS.txt
+24/////////////////////////////////////////////////////////////////////
+25-->
+26<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+27    package="com.androidsip.app"
+28    android:installLocation="auto"
+29    android:versionCode="147"
+30    android:versionName="7.0" >
+31
+32    <uses-sdk
+32-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:30:2-70
+33        android:minSdkVersion="16"
+33-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:30:12-38
+34        android:targetSdkVersion="35" />
+34-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:30:39-68
+35
+36    <supports-screens
+36-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:31:2-35:39
+37        android:anyDensity="true"
+37-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:35:11-36
+38        android:largeScreens="true"
+38-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:34:11-38
+39        android:normalScreens="true"
+39-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:32:11-39
+40        android:smallScreens="true" />
+40-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:33:11-38
+41
+42    <uses-feature
+42-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:36:2-84
+43        android:name="android.hardware.bluetooth"
+43-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:36:16-57
+44        android:required="false" />
+44-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:36:58-82
+45    <uses-feature
+45-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:37:2-84
+46        android:name="android.hardware.telephony"
+46-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:37:16-57
+47        android:required="false" />
+47-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:37:58-82
+48    <uses-feature
+48-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:38:2-86
+49        android:name="android.hardware.touchscreen"
+49-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:38:16-59
+50        android:required="false" />
+50-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:38:60-84
+51    <uses-feature
+51-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:39:2-79
+52        android:name="android.hardware.wifi"
+52-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:39:16-52
+53        android:required="false" />
+53-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:39:53-77
+54
+55    <uses-permission android:name="android.permission.INTERNET" />
+55-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:145:2-80
+55-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:145:19-61
+56    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+56-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:146:2-93
+56-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:146:19-74
+57    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+57-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:147:2-84
+57-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:147:19-65
+58    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+58-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:148:2-94
+58-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:148:19-75
+59    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+59-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:149:2-88
+59-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:149:19-69
+60    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+60-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:150:2-89
+60-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:150:19-70
+61    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+61-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:151:2-94
+61-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:151:19-75
+62    <uses-permission android:name="android.permission.READ_CONTACTS" />
+62-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:152:2-85
+62-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:152:19-66
+63    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+63-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:153:2-86
+63-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:153:19-67
+64    <uses-permission android:name="android.permission.CALL_PHONE" />
+64-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:154:2-82
+64-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:154:19-63
+65    <uses-permission android:name="android.permission.WAKE_LOCK" />
+65-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:155:2-81
+65-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:155:19-62
+66    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+66-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:156:2-88
+66-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:156:19-69
+67    <uses-permission android:name="android.permission.VIBRATE" />
+67-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:157:2-80
+67-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:157:19-60
+68    <uses-permission android:name="android.permission.BLUETOOTH" />
+68-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:158:2-82
+68-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:158:19-62
+69    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+69-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:159:2-73
+69-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:159:19-70
+70    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+70-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:160:2-85
+70-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:160:19-65
+71    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+71-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:161:2-89
+71-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:161:19-69
+72    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+72-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:162:2-85
+72-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:162:19-66
+73    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+73-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:163:2-86
+73-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:163:19-67
+74    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+74-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:164:2-92
+74-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:164:19-73
+75    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+75-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:165:2-98
+75-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:165:19-79
+76    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+76-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:166:2-108
+76-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:166:19-89
+77    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+77-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:167:2-90
+77-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:167:19-71
+78    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+78-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:168:2-101
+78-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:168:19-82
+79    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+79-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:169:2-94
+79-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:169:19-75
+80    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+80-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:170:2-90
+80-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:170:19-71
+81    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+81-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:171:2-88
+81-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:171:19-69
+82    <!--
+83	<permission android:name="org.sipdroid.sipua.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+84	<uses-permission android:name="org.sipdroid.sipua.permission.C2D_MESSAGE" />
+85	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+86    -->
+87    <permission
+87-->[androidx.core:core:1.9.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\2c572bfdb425e6c1375d05070450f3cb\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+88        android:name="com.androidsip.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+88-->[androidx.core:core:1.9.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\2c572bfdb425e6c1375d05070450f3cb\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+89        android:protectionLevel="signature" />
+89-->[androidx.core:core:1.9.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\2c572bfdb425e6c1375d05070450f3cb\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+90
+91    <uses-permission android:name="com.androidsip.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+91-->[androidx.core:core:1.9.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\2c572bfdb425e6c1375d05070450f3cb\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+91-->[androidx.core:core:1.9.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\2c572bfdb425e6c1375d05070450f3cb\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+92
+93    <application
+93-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:40:2-144:19
+94        android:name="org.sipdroid.sipua.SipdroidApp"
+94-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:40:15-60
+95        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+95-->[androidx.core:core:1.9.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\2c572bfdb425e6c1375d05070450f3cb\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+96        android:debuggable="true"
+97        android:extractNativeLibs="true"
+98        android:icon="@drawable/icon"
+98-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:40:61-90
+99        android:label="@string/app_name"
+99-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:40:91-123
+100        android:theme="@style/MyHoloTheme" >
+100-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:40:124-158
+101        <activity
+101-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:41:9-47:20
+102            android:name="org.sipdroid.sipua.ui.Sipdroid"
+102-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:41:19-64
+103            android:configChanges="orientation|keyboardHidden"
+103-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:42:34-84
+104            android:exported="true"
+104-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:42:10-33
+105            android:label="@string/app_name"
+105-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:41:65-97
+106            android:launchMode="singleInstance"
+106-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:41:98-133
+107            android:showOnLockScreen="true"
+107-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:42:115-146
+108            android:showWhenLocked="true" >
+108-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:42:85-114
+109            <intent-filter>
+109-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:43:13-46:29
+110                <action android:name="android.intent.action.MAIN" />
+110-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:44:17-69
+110-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:44:25-66
+111
+112                <category android:name="android.intent.category.LAUNCHER" />
+112-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:45:17-77
+112-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:45:27-74
+113            </intent-filter>
+114        </activity>
+115        <activity
+115-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:48:9-56:20
+116            android:name="org.sipdroid.sipua.ui.PSTN"
+116-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:48:19-60
+117            android:exported="true"
+117-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:49:4-27
+118            android:icon="@drawable/ic_launcher_phone"
+118-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:49:28-70
+119            android:label="@string/pstn_name" >
+119-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:48:61-94
+120            <intent-filter>
+120-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:50:13-55:29
+121                <action android:name="android.intent.action.SENDTO" />
+121-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:51:17-71
+121-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:51:25-68
+122
+123                <category android:name="android.intent.category.DEFAULT" />
+123-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:52:17-76
+123-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:52:27-73
+124
+125                <data android:scheme="sms" />
+125-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:17-46
+125-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:23-43
+126                <data android:scheme="smsto" />
+126-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:17-46
+126-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:23-43
+127            </intent-filter>
+128        </activity>
+129        <activity
+129-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:57:9-64:20
+130            android:name="org.sipdroid.sipua.ui.SIP"
+130-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:57:19-59
+131            android:exported="true"
+131-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:57:93-116
+132            android:label="@string/app_name" >
+132-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:57:60-92
+133            <intent-filter>
+133-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:50:13-55:29
+134                <action android:name="android.intent.action.SENDTO" />
+134-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:51:17-71
+134-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:51:25-68
+135
+136                <category android:name="android.intent.category.DEFAULT" />
+136-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:52:17-76
+136-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:52:27-73
+137
+138                <data android:scheme="sms" />
+138-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:17-46
+138-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:23-43
+139                <data android:scheme="smsto" />
+139-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:17-46
+139-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:23-43
+140            </intent-filter>
+141        </activity>
+142        <activity
+142-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:65:9-101
+143            android:name="org.sipdroid.sipua.ui.AutoAnswer"
+143-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:65:19-66
+144            android:label="@string/app_name" />
+144-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:65:67-99
+145        <activity
+145-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:66:9-104
+146            android:name="org.sipdroid.sipua.ui.ChangeAccount"
+146-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:66:19-69
+147            android:label="@string/app_name" />
+147-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:66:70-102
+148        <activity
+148-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:67:9-93:20
+149            android:name="org.sipdroid.sipua.ui.SIPUri"
+149-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:67:19-62
+150            android:exported="true"
+150-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:68:75-98
+151            android:label="@string/app_name"
+151-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:67:63-95
+152            android:theme="@android:style/Theme.DeviceDefault.Dialog.Alert" >
+152-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:68:11-74
+153            <intent-filter>
+153-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:69:13-74:29
+154                <action android:name="android.intent.action.CALL" />
+154-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:70:17-69
+154-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:70:25-66
+155
+156                <category android:name="android.intent.category.DEFAULT" />
+156-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:52:17-76
+156-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:52:27-73
+157
+158                <data android:scheme="sip" />
+158-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:17-46
+158-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:23-43
+159                <data android:scheme="sipdroid" />
+159-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:17-46
+159-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:23-43
+160            </intent-filter>
+161            <intent-filter>
+161-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:75:13-82:29
+162                <action android:name="android.intent.action.SENDTO" />
+162-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:51:17-71
+162-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:51:25-68
+163                <action android:name="android.intent.action.VIEW" />
+163-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:77:17-69
+163-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:77:25-66
+164
+165                <category android:name="android.intent.category.DEFAULT" />
+165-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:52:17-76
+165-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:52:27-73
+166                <category android:name="android.intent.category.BROWSABLE" />
+166-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:79:17-78
+166-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:79:27-75
+167
+168                <data android:scheme="imto" />
+168-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:17-46
+168-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:23-43
+169                <data android:scheme="sip" />
+169-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:17-46
+169-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:23-43
+170            </intent-filter>
+171            <intent-filter>
+171-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:83:13-87:29
+172                <action android:name="android.intent.action.CALL_PRIVILEGED" />
+172-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:84:17-80
+172-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:84:25-77
+173
+174                <category android:name="android.intent.category.DEFAULT" />
+174-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:52:17-76
+174-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:52:27-73
+175
+176                <data android:scheme="sip" />
+176-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:17-46
+176-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:23-43
+177            </intent-filter>
+178            <intent-filter>
+178-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:88:13-92:20
+179                <action android:name="android.intent.action.VIEW" />
+179-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:77:17-69
+179-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:77:25-66
+180
+181                <category android:name="android.intent.category.DEFAULT" />
+181-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:52:17-76
+181-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:52:27-73
+182
+183                <data android:mimeType="vnd.android.cursor.item/name" />
+183-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:17-46
+183-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:91:14-61
+184            </intent-filter>
+185        </activity>
+186        <activity
+186-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:94:9-95:69
+187            android:name="org.sipdroid.sipua.ui.Activity2"
+187-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:94:19-65
+188            android:excludeFromRecents="true"
+188-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:95:10-43
+189            android:label="@string/app_name"
+189-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:94:66-98
+190            android:taskAffinity="" />
+190-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:95:44-67
+191        <activity
+191-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:96:9-99:20
+192            android:name="org.sipdroid.sipua.ui.Settings"
+192-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:96:19-64
+193            android:configChanges="orientation|keyboardHidden"
+193-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:97:10-60
+194            android:label="@string/app_name" >
+194-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:96:65-97
+195        	android:excludeFromRecents="true" android:taskAffinity="">
+196        </activity>
+197        <activity
+197-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:100:9-103:20
+198            android:name="org.sipdroid.codecs.Codecs$CodecSettings"
+198-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:101:5-60
+199            android:label="@string/app_name" >
+199-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:102:5-37
+200        </activity>
+201        <activity
+201-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:104:9-107:20
+202            android:name="org.sipdroid.sipua.ui.InCallScreen"
+202-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:104:19-68
+203            android:excludeFromRecents="true"
+203-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:105:10-43
+204            android:label="@string/app_name"
+204-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:104:69-101
+205            android:launchMode="singleInstance"
+205-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:106:10-45
+206            android:showOnLockScreen="true"
+206-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:106:76-107
+207            android:showWhenLocked="true"
+207-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:106:46-75
+208            android:taskAffinity="" >
+208-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:105:44-67
+209        </activity>
+210
+211        <receiver
+211-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:108:6-82
+212            android:name="org.sipdroid.sipua.ui.OneShotAlarm"
+212-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:108:16-47
+213            android:label="@string/app_name" />
+213-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:108:48-80
+214        <receiver
+214-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:109:6-83
+215            android:name="org.sipdroid.sipua.ui.OneShotAlarm2"
+215-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:109:16-48
+216            android:label="@string/app_name" />
+216-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:109:49-81
+217        <receiver
+217-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:110:6-79
+218            android:name="org.sipdroid.sipua.ui.LoopAlarm"
+218-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:110:16-44
+219            android:label="@string/app_name" />
+219-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:110:45-77
+220        <receiver
+220-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:111:6-77
+221            android:name="org.sipdroid.sipua.ui.OwnWifi"
+221-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:111:16-42
+222            android:label="@string/app_name" />
+222-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:111:43-75
+223        <receiver
+223-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:112:6-116:17
+224            android:name="org.sipdroid.sipua.ui.Caller"
+224-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:112:16-41
+225            android:exported="true"
+225-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:112:75-98
+226            android:label="@string/app_name" >
+226-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:112:42-74
+227            <intent-filter android:priority="-1" >
+227-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:113:10-115:26
+227-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:113:25-46
+228                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+228-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:114:11-76
+228-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:114:19-73
+229            </intent-filter>
+230        </receiver>
+231        <receiver
+231-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:117:9-128:17
+232            android:name="org.sipdroid.sipua.ui.Receiver"
+232-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:117:19-46
+233            android:enabled="true"
+233-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:117:47-69
+234            android:exported="true"
+234-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:117:103-126
+235            android:label="@string/app_name" >
+235-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:117:70-102
+236            <intent-filter>
+236-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:118:4-122:25
+237                <action android:name="android.intent.action.BOOT_COMPLETED" />
+237-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:119:11-73
+237-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:119:19-70
+238                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE" />
+238-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:120:11-90
+238-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:120:19-87
+239                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE" />
+239-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:121:11-92
+239-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:121:19-89
+240            </intent-filter>
+241            <intent-filter>
+241-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:123:9-127:25
+242                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+242-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:124:11-75
+242-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:124:19-72
+243
+244                <data android:scheme="package" />
+244-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:17-46
+244-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:23-43
+245                <data android:path="com.androidsip.app" />
+245-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:53:17-46
+245-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:126:17-50
+246            </intent-filter>
+247        </receiver>
+248        <receiver
+248-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:129:9-134:20
+249            android:name="org.sipdroid.sipua.ui.PhoneStart"
+249-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:129:19-66
+250            android:exported="true" >
+250-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:129:67-90
+251            <intent-filter>
+251-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:130:13-133:29
+252                <action android:name="com.androidsip.START_SIPDROID" />
+252-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:131:17-72
+252-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:131:25-69
+253                <action android:name="com.androidsip.STOP_SIPDROID" />
+253-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:132:17-71
+253-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:132:25-68
+254            </intent-filter>
+255        </receiver>
+256
+257        <service
+257-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:135:9-136:48
+258            android:name="org.sipdroid.sipua.ui.RegisterService"
+258-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:135:18-52
+259            android:foregroundServiceType="microphone"
+259-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:136:4-46
+260            android:label="@string/app_name" />
+260-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:135:53-85
+261        <service
+261-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:137:9-143:19
+262            android:name="org.sipdroid.sipua.ui.SipCallRedirectionService"
+262-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:137:18-62
+263            android:exported="true"
+263-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:139:13-36
+264            android:permission="android.permission.BIND_CALL_REDIRECTION_SERVICE" >
+264-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:138:13-82
+265            <intent-filter>
+265-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:140:13-142:29
+266                <action android:name="android.telecom.CallRedirectionService" />
+266-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:141:17-80
+266-->B:\user\Antigravity\sipdroid\app\src\main\AndroidManifest.xml:141:25-78
+267            </intent-filter>
+268        </service>
+269
+270        <provider
+270-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\3873d6d2ba7e1f3538353a4cb47faf59\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+271            android:name="androidx.startup.InitializationProvider"
+271-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\3873d6d2ba7e1f3538353a4cb47faf59\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+272            android:authorities="com.androidsip.app.androidx-startup"
+272-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\3873d6d2ba7e1f3538353a4cb47faf59\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+273            android:exported="false" >
+273-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\3873d6d2ba7e1f3538353a4cb47faf59\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+274            <meta-data
+274-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\3873d6d2ba7e1f3538353a4cb47faf59\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+275                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+275-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\3873d6d2ba7e1f3538353a4cb47faf59\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+276                android:value="androidx.startup" />
+276-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\3873d6d2ba7e1f3538353a4cb47faf59\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+277            <meta-data
+277-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\410152f25cb183078e8e7d8605ec08f3\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+278                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+278-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\410152f25cb183078e8e7d8605ec08f3\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+279                android:value="androidx.startup" />
+279-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\410152f25cb183078e8e7d8605ec08f3\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+280            <meta-data
+280-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+281                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+281-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+282                android:value="androidx.startup" />
+282-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+283        </provider>
+284
+285        <receiver
+285-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+286            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+286-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+287            android:directBootAware="false"
+287-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+288            android:enabled="true"
+288-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+289            android:exported="true"
+289-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+290            android:permission="android.permission.DUMP" >
+290-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+291            <intent-filter>
+291-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+292                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+292-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+292-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+293            </intent-filter>
+294            <intent-filter>
+294-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+295                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+295-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+295-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+296            </intent-filter>
+297            <intent-filter>
+297-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+298                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+298-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+298-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+299            </intent-filter>
+300            <intent-filter>
+300-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+301                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+301-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+301-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\scoop\apps\gradle\current\.gradle\caches\transforms-3\acfcc7c6470b44d20291ddf37046dd94\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+302            </intent-filter>
+303        </receiver>
+304    </application>
+305
+306</manifest>

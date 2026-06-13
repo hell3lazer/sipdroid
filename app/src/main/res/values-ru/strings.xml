@@ -2,9 +2,9 @@
 <!--
  * Copyright (C) 2009 The Sipdroid Open Source Project
  *
- * This file is part of Sipdroid (http://www.sipdroid.org)
+ * This file is part of Android SIP (http://www.sipdroid.org)
  *
- * Sipdroid is free software; you can redistribute it and/or modify
+ * Android SIP is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 3 of the License, or
  * (at your option) any later version.
@@ -19,7 +19,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 /////////////////////////////////////////////////////////////////////
-// these are the main messages of Sipdroid
+// these are the main messages of Android SIP
 // for modifying them additional terms according to section 7, GPL apply
 // see ADDITIONAL_TERMS.txt
 /////////////////////////////////////////////////////////////////////
@@ -27,11 +27,11 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-<string name="app_name">Sipdroid</string>
+<string name="app_name">Android SIP</string>
 <string name="pstn_name">Телефон</string>
-<string name="sip_name">Sipdroid, когда доступно</string>
+<string name="sip_name">Android SIP, когда доступно</string>
 
-<string name="about">Sipdroid — свободный SIP-клиент для Android
+<string name="about">Android SIP — свободный SIP-клиент для Android
 \n
 \nСмотрите дополнительную информацию на http://sipdroid.org
 \n
@@ -145,19 +145,19 @@
 <string name="settings_check">Убедитесь, что ваш мобильный оператор разрешает VoIP</string>
 <string name="settings_vpn2">PBXes предлагает бесплатный VPN — смотрите раздел HELP у него.</string>
 
-<string name="dialog_default">Sipdroid не является телефоном по умолчанию. Хотите установить его по умолчанию?
+<string name="dialog_default">Android SIP не является телефоном по умолчанию. Хотите установить его по умолчанию?
 \n
-\nЕсли Вы ответите «Нет», то всё равно сможете звонить через Sipdroid, добавив «+» перед номером телефона или выбрав «Отправить сообщение» в Контактах.</string>
-<string name="dialog_message">Хотите увидеть обращение Паскаля о новой версии Sipdroid 1.5?</string>
+\nЕсли Вы ответите «Нет», то всё равно сможете звонить через Android SIP, добавив «+» перед номером телефона или выбрав «Отправить сообщение» в Контактах.</string>
+<string name="dialog_message">Хотите увидеть обращение Паскаля о новой версии Android SIP 1.5?</string>
 <string name="yes">Да</string>
 <string name="no">Нет</string>
 <string name="dontask">Не спрашивать</string>
 
 <string name="settings_pref">Звонить через</string>
-<string name="settings_pref2">Можно всегда позвонить через Sipdroid поставив «+» после номера или выбрав «Отправить сообщение» в Контактах.</string>
+<string name="settings_pref2">Можно всегда позвонить через Android SIP поставив «+» после номера или выбрав «Отправить сообщение» в Контактах.</string>
     <string-array name="pref_display_values">
-        <item>Sipdroid</item>
-        <item>Sipdroid, когда возможно</item>
+        <item>Android SIP</item>
+        <item>Android SIP, когда возможно</item>
         <item>Телефон</item>
         <item>Спрашивать</item>
     </string-array>
@@ -235,9 +235,9 @@
 <string name="settings_callthru">Callthru</string>
 <string name="settings_callthru2">Префикс для Callthru</string>
 
-<string name="settings_title">Настройки Sipdroid</string>
+<string name="settings_title">Настройки Android SIP</string>
 
-<string name="settings_profile_title">Настройки Sipdroid (<xliff:g id="profile">%s</xliff:g>)</string>
+<string name="settings_profile_title">Настройки Android SIP (<xliff:g id="profile">%s</xliff:g>)</string>
 <string name="settings_profile_menu_import">Импорт</string>
 <string name="settings_profile_menu_export">Экспорт</string>
 <string name="settings_profile_menu_delete">Удалить</string>
@@ -295,3 +295,5 @@
 <string name="help_speakerphone">Зажмите кнопку громкости для начала разговора</string>
 
 </resources>
+
+

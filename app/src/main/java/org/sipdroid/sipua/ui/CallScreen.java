@@ -165,7 +165,7 @@ public class CallScreen extends AppCompatActivity implements DialogInterface.OnC
 					
 		case SPEAKER_MENU_ITEM:
 			Receiver.engine(this).speaker(RtpStreamReceiver.speakermode == AudioManager.MODE_NORMAL?
-					AudioManager.MODE_IN_CALL:AudioManager.MODE_NORMAL);
+					AudioManager.MODE_IN_COMMUNICATION:AudioManager.MODE_NORMAL);
 			break;
 			
 		case BLUETOOTH_MENU_ITEM:

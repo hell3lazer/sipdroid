@@ -8,7 +8,7 @@
 		android:entryValues="@array/theme_values"
 		android:defaultValue="-1" />
 		
-	<PreferenceScreen android:title="@string/settings_account"
+	<PreferenceScreen android:title="SIP Account 1"
 					android:key="account">
 			<EditTextPreference
 				android:key="username"
@@ -64,7 +64,7 @@
 				android:title="@string/settings_vpn"
 				android:summary="@string/settings_vpn2" />
 	</PreferenceScreen>
-	<PreferenceScreen android:title="@string/settings_account"
+	<PreferenceScreen android:title="SIP Account 2"
 				android:key="account1">
 			<EditTextPreference
 				android:key="username1"
@@ -163,41 +163,13 @@
 				android:ringtoneType="ringtone" /> 
 	</PreferenceScreen>
 	<PreferenceScreen android:title="@string/settings_av_options">
-			<ListPreference
-				android:key="eargain"
-				android:title="@string/settings_eargain"
-				android:entries="@array/eargain_display_values"
-				android:entryValues="@array/eargain_values"
-				android:defaultValue="0.25"
-				android:dialogTitle="@string/settings_eargain" />
-			<ListPreference
-				android:key="micgain"
-				android:title="@string/settings_micgain"
-				android:entries="@array/eargain_display_values"
-				android:entryValues="@array/eargain_values"
-				android:defaultValue="0.25"
-				android:dialogTitle="@string/settings_micgain" />
-			<ListPreference
-				android:key="heargain"
-				android:title="@string/settings_heargain"
-				android:entries="@array/eargain_display_values"
-				android:entryValues="@array/eargain_values"
-				android:defaultValue="0.25"
-				android:dialogTitle="@string/settings_heargain" />
-			<ListPreference
-				android:key="hmicgain"
-				android:title="@string/settings_hmicgain"
-				android:entries="@array/eargain_display_values"
-				android:entryValues="@array/eargain_values"
-				android:defaultValue="1.0"
-				android:dialogTitle="@string/settings_hmicgain" />
 	</PreferenceScreen>
 	<PreferenceScreen
 		android:key="codecs"
 		android:title="@string/codecs" >
         	<intent
                 	android:action="android.intent.action.MAIN"
-	                android:targetPackage="org.sipdroid.sipua"
+	                android:targetPackage="com.androidsip.app"
 	                android:targetClass="org.sipdroid.codecs.Codecs$CodecSettings" />
 
 	</PreferenceScreen>

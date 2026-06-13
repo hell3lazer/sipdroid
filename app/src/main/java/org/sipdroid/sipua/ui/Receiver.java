@@ -156,7 +156,11 @@ import org.zoolu.sip.provider.SipProvider;
 			} else
 				mSipdroidEngine.CheckEngine();
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-		        context.startForegroundService(new Intent(context, RegisterService.class));
+		        try {
+					context.startForegroundService(new Intent(context, RegisterService.class));
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
 		    } else {
 		    	context.startService(new Intent(context,RegisterService.class));
 		    }
@@ -424,7 +428,7 @@ import org.zoolu.sip.provider.SipProvider;
 					type = alloc(type);
 		    	if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O && Receiver.sContext != null && type == REGISTER_NOTIFICATION) {
 					if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q)
-						Receiver.sContext.startForeground(type, notification.build(), ServiceInfo.FOREGROUND_SERVICE_TYPE_PHONE_CALL);
+						Receiver.sContext.startForeground(type, notification.build(), 128); // FOREGROUND_SERVICE_TYPE_MICROPHONE
 					else
 						Receiver.sContext.startForeground(type, notification.build());
 				} else {
@@ -760,7 +764,7 @@ import org.zoolu.sip.provider.SipProvider;
         		if (docked > 0 && headset <= 0)
     				return AudioManager.MODE_NORMAL;
         		else
-        			return AudioManager.MODE_IN_CALL;
+        			return AudioManager.MODE_IN_COMMUNICATION;
 		}
 		
 	    static Handler mHandler = new Handler() {

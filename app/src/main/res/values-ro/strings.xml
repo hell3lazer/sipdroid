@@ -2,9 +2,9 @@
 <!--
  * Copyright (C) 2009 The Sipdroid Open Source Project
  *
- * This file is part of Sipdroid (http://www.sipdroid.org)
+ * This file is part of Android SIP (http://www.sipdroid.org)
  *
- * Sipdroid is free software; you can redistribute it and/or modify
+ * Android SIP is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 3 of the License, or
  * (at your option) any later version.
@@ -19,18 +19,18 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 /////////////////////////////////////////////////////////////////////
-// these are the main messages of Sipdroid
+// these are the main messages of Android SIP
 // for modifying them additional terms according to section 7, GPL apply
 // see ADDITIONAL_TERMS.txt
 /////////////////////////////////////////////////////////////////////
 -->
 
 <resources>
-<string name="app_name">Sipdroid</string>
+<string name="app_name">Android SIP</string>
 <string name="pstn_name">Telefon</string>
-<string name="sip_name">Sipdroid, când e disponibil</string>
+<string name="sip_name">Android SIP, când e disponibil</string>
 
-<string name="about">Sipdroid este un client SIP open-source pentru Android
+<string name="about">Android SIP este un client SIP open-source pentru Android
 \n
 \nVezi http://sipdroid.org pentru mai multe informaţii
 \n
@@ -82,8 +82,8 @@
 <string name="settings_check">Verifică dacă operatorul de telefonie mobilă permite VoIP</string>
 <string name="settings_pref">Tip apelare preferat</string>
     <string-array name="pref_display_values">
-		<item>Sipdroid</item>
-        <item>Sipdroid, când e disponibil</item>
+		<item>Android SIP</item>
+        <item>Android SIP, când e disponibil</item>
         <item>Apelează</item>
 		<item>Always ask</item>
     </string-array>
@@ -158,3 +158,5 @@
 <string name="ongoing">Apel curent</string>
 <string name="onHold">În aşteptare</string>
 </resources>
+
+

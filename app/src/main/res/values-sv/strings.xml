@@ -2,9 +2,9 @@
 <!--
  * Copyright (C) 2009 The Sipdroid Open Source Project
  *
- * This file is part of Sipdroid (http://www.sipdroid.org)
+ * This file is part of Android SIP (http://www.sipdroid.org)
  *
- * Sipdroid is free software; you can redistribute it and/or modify
+ * Android SIP is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 3 of the License, or
  * (at your option) any later version.
@@ -19,7 +19,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 /////////////////////////////////////////////////////////////////////
-// these are the main messages of Sipdroid
+// these are the main messages of Android SIP
 // for modifying them additional terms according to section 7, GPL apply
 // see ADDITIONAL_TERMS.txt
 /////////////////////////////////////////////////////////////////////
@@ -28,11 +28,11 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-<string name="app_name">Sipdroid</string>
+<string name="app_name">Android SIP</string>
 <string name="pstn_name">Telefonsamtal</string>
-<string name="sip_name">Sipdroidsamtal, om möjligt</string>
+<string name="sip_name">Android SIPsamtal, om möjligt</string>
 
-<string name="about">Sipdroid är en open-source SIP klient för Android
+<string name="about">Android SIP är en open-source SIP klient för Android
 \n
 \nSe http://sipdroid.org för mer info
 \n
@@ -145,10 +145,10 @@
 <string name="settings_check">Kontrollera med din mobil operatör om de tillåter VoIP</string>
 <string name="settings_vpn2">PBXes erbjuder gratis VPN tjänst, se HELP sektion tre</string>
 
-<string name="dialog_default">Sipdroid är inte definerad som föredragen telefon. Vill du göra den till föredragen telefon?
+<string name="dialog_default">Android SIP är inte definerad som föredragen telefon. Vill du göra den till föredragen telefon?
 \n
-\nOm du svarar \'No\' här, kan du fortfarande ringa med Sipdroid från systemet genom att lägga till \'+\' bakom numret i Dialer, eller genom att välja \'text to\' i Contacts.</string>
-<string name="dialog_message">Vill du se a ett medelande från Pascal som introducerar Sipdroid 1.5?</string>
+\nOm du svarar \'No\' här, kan du fortfarande ringa med Android SIP från systemet genom att lägga till \'+\' bakom numret i Dialer, eller genom att välja \'text to\' i Contacts.</string>
+<string name="dialog_message">Vill du se a ett medelande från Pascal som introducerar Android SIP 1.5?</string>
 <string name="yes">Ja</string>
 <string name="no">Nej</string>
 <string name="dontask">Fråga mig inte igen</string>
@@ -156,8 +156,8 @@
 <string name="settings_pref">Föredragen Samtalstyp</string>
 <string name="settings_pref2">Överrid genom att addera \'+\' bakom nummret i Dialer, eller välja \'text to\' i Kontakter</string>
     <string-array name="pref_display_values">
-        <item>Sipdroid alltid</item>
-        <item>Sipdroid, när tillgängligt</item>
+        <item>Android SIP alltid</item>
+        <item>Android SIP, när tillgängligt</item>
         <item>Telefon</item>
 		<item>Fråga alltid</item>
     </string-array>
@@ -229,9 +229,9 @@
 <string name="settings_callthru">Trigga Callthru</string>
 <string name="settings_callthru2">Prefix för Callthru</string>
 
-<string name="settings_title">Sipdroid konfigurationer</string>
+<string name="settings_title">Android SIP konfigurationer</string>
 
-<string name="settings_profile_title">Sipdroid konfigurationer (<xliff:g id="profile">%s</xliff:g>)</string>
+<string name="settings_profile_title">Android SIP konfigurationer (<xliff:g id="profile">%s</xliff:g>)</string>
 <string name="settings_profile_menu_import">Importera</string>
 <string name="settings_profile_menu_delete">Ta bort</string>
 <string name="settings_profile_dialog_profiles_title">Profiler</string>
@@ -252,7 +252,7 @@
 
 <string name="menu_settings">Inställningar</string>
 <string name="menu_exit">Avsluta</string>
-<string name="menu_about">Om sipdroid</string>
+<string name="menu_about">Om Android SIP</string>
 <string name="menu_dtmf">Skicka DTMF</string>
 <string name="menu_video">Skicka Video</string>
 <string name="menu_call">Ring</string>
@@ -285,3 +285,5 @@
 <string name="codecs_move_up">Flytta upp ett steg</string>
 <string name="codecs_move_down">Flytta ner ett steg</string>
 </resources>
+
+

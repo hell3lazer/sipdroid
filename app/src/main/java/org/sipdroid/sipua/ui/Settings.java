@@ -56,9 +56,9 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
 	private Settings context = null;
 
 	// Path where is stored the shared preference file - !!!should be replaced by some system variable!!!
-	public static String sharedPrefsPath = "/data/data/org.sipdroid.sipua/shared_prefs/";
+	public static String sharedPrefsPath = "/data/data/com.androidsip.app/shared_prefs/";
 	// Shared preference file name - !!!should be replaced by some system variable!!!
-	private final String sharedPrefsFile = "org.sipdroid.sipua_preferences";
+	private final String sharedPrefsFile = "com.androidsip.app_preferences";
 	// List of profile files available on the SD card
 	private String[] profileFiles = null;
 	// Which profile file to delete
@@ -114,10 +114,6 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
 	public static final String PREF_SIPRINGTONE = "sipringtone";
 	public static final String PREF_SEARCH = "search";
 	public static final String PREF_EXCLUDEPAT = "excludepat";
-	public static final String PREF_EARGAIN = "eargain";
-	public static final String PREF_MICGAIN = "micgain";
-	public static final String PREF_HEARGAIN = "heargain";
-	public static final String PREF_HMICGAIN = "hmicgain";
 	public static final String PREF_STUN = "stun";
 	public static final String PREF_STUN_SERVER = "stun_server";
 	public static final String PREF_STUN_SERVER_PORT = "stun_server_port";
@@ -145,11 +141,11 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
 	// Default values of the preferences
 	public static final String	DEFAULT_USERNAME = "";
 	public static final String	DEFAULT_PASSWORD = "";
-	public static final String	DEFAULT_SERVER = "pbxes.org";
+	public static final String	DEFAULT_SERVER = "";
 	public static final String	DEFAULT_DOMAIN = "";
 	public static final String	DEFAULT_FROMUSER = "";
 	public static final String	DEFAULT_PORT = "" + SipStack.default_port;
-	public static final String	DEFAULT_PROTOCOL = "tcp";
+	public static final String	DEFAULT_PROTOCOL = "udp";
 	public static final boolean	DEFAULT_WLAN = true;
 	public static final boolean	DEFAULT_3G = false;
 	public static final boolean	DEFAULT_4G = false;
@@ -166,10 +162,6 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
 	public static final String	DEFAULT_SIPRINGTONE = "";
 	public static final String	DEFAULT_SEARCH = "";
 	public static final String	DEFAULT_EXCLUDEPAT = "";
-	public static final float	DEFAULT_EARGAIN = (float) 0.25;
-	public static final float	DEFAULT_MICGAIN = (float) 0.25;
-	public static final float	DEFAULT_HEARGAIN = (float) 0.25;
-	public static final float	DEFAULT_HMICGAIN = (float) 1.0;
 	public static final boolean	DEFAULT_STUN = false;
 	public static final String	DEFAULT_STUN_SERVER = "stun.ekiga.net";
 	public static final String	DEFAULT_STUN_SERVER_PORT = "3478";
@@ -230,30 +222,6 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
 	//public static final String	DEFAULT_RINGTONEx = "";
 	//public static final String	DEFAULT_VOLUMEx = "";
 
-	public static float getEarGain() {
-		try {
-			return Float.valueOf(PreferenceManager.getDefaultSharedPreferences(Receiver.mContext).getString(Receiver.headset > 0 ? PREF_HEARGAIN : PREF_EARGAIN, "" + DEFAULT_EARGAIN));
-		} catch (NumberFormatException i) {
-			return DEFAULT_EARGAIN;
-		}			
-	}
-
-	public static float getMicGain() {
-		if (Receiver.headset > 0 || Receiver.bluetooth > 0) {
-			try {
-				return Float.valueOf(PreferenceManager.getDefaultSharedPreferences(Receiver.mContext).getString(PREF_HMICGAIN, "" + DEFAULT_HMICGAIN));
-			} catch (NumberFormatException i) {
-				return DEFAULT_HMICGAIN;
-			}			
-		}
-
-		try {
-			return Float.valueOf(PreferenceManager.getDefaultSharedPreferences(Receiver.mContext).getString(PREF_MICGAIN, "" + DEFAULT_MICGAIN));
-		} catch (NumberFormatException i) {
-			return DEFAULT_MICGAIN;
-		}			
-	}
-
 	public void onCreate(Bundle savedInstanceState) {
 		String themePref = PreferenceManager.getDefaultSharedPreferences(this).getString("app_theme", "-1");
         if ("1".equals(themePref)) {
@@ -287,12 +255,12 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
 
 		for (int i = 0; i < SipdroidEngine.LINES; i++) {
 			String j = (i!=0?""+i:"");
-			if (settings.getString(PREF_SERVER+j, "").equals("")) {
+			if (!settings.contains(PREF_SERVER+j)) {
 				CheckBoxPreference cb = (CheckBoxPreference) getPreferenceScreen().findPreference(PREF_WLAN+j);
 				cb.setChecked(true);
 				Editor edit = settings.edit();
 
-				edit.putString(PREF_PORT+j, "5061");
+				edit.putString(PREF_PORT+j, DEFAULT_PORT);
 				edit.putString(PREF_SERVER+j, DEFAULT_SERVER);
 				edit.putString(PREF_PREF+j, DEFAULT_PREF);				
 				edit.putString(PREF_PROTOCOL+j, DEFAULT_PROTOCOL);
@@ -520,24 +488,10 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
     		Editor edit = sharedPreferences.edit();
     		for (int i = 0; i < SipdroidEngine.LINES; i++) {
     			edit.putString(PREF_DNS+i, DEFAULT_DNS);
-    			String j = (i!=0?""+i:"");
-    			if (key.equals(PREF_SERVER+j)) {
-    				ListPreference lp = (ListPreference) getPreferenceScreen().findPreference(PREF_PROTOCOL+j);
-    				lp.setValue(sharedPreferences.getString(PREF_SERVER+j, DEFAULT_SERVER).equals(DEFAULT_SERVER) ? "tcp" : "udp");
-    				lp = (ListPreference) getPreferenceScreen().findPreference(PREF_PORT+j);
-    				lp.setValue(sharedPreferences.getString(PREF_SERVER+j, DEFAULT_SERVER).equals(DEFAULT_SERVER) ? "5061" : DEFAULT_PORT);
-    			}
-    			if (key.equals(PREF_PROTOCOL+j)) {
-    				if (sharedPreferences.getString(PREF_SERVER+j, DEFAULT_SERVER).equals(DEFAULT_SERVER)) {
-    					ListPreference lp = (ListPreference) getPreferenceScreen().findPreference(PREF_PORT+j);
-    					lp.setValue(sharedPreferences.getString(PREF_PROTOCOL+j, DEFAULT_PROTOCOL).equals("tls") ? "5070" : "5061");
-    				} else {
-    		        	Receiver.engine(this).halt();
-    		    		Receiver.engine(this).StartEngine();
-    				}
-    			}
     		}
     		edit.commit();
+        	Receiver.engine(this).halt();
+    		Receiver.engine(this).StartEngine();
         	Receiver.engine(this).updateDNS();
         	Checkin.checkin(false);
         } else if (sharedPreferences.getBoolean(PREF_CALLBACK, DEFAULT_CALLBACK) && sharedPreferences.getBoolean(PREF_CALLTHRU, DEFAULT_CALLTHRU)) {
@@ -600,10 +554,9 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
 	    	} else {
 	    		getPreferenceScreen().findPreference(PREF_FROMUSER+j).setSummary(settings.getString(PREF_FROMUSER+j, DEFAULT_FROMUSER));
 	    	}
-	    	getPreferenceScreen().findPreference(PREF_PORT+j).setSummary(settings.getString(PREF_PORT+j, DEFAULT_PORT));
-	    	getPreferenceScreen().findPreference(PREF_PROTOCOL+j).setSummary(settings.getString(PREF_PROTOCOL+j,
-	    		settings.getString(PREF_SERVER+j, DEFAULT_SERVER).equals(DEFAULT_SERVER) ? "tcp" : "udp").toUpperCase());
-	    	getPreferenceScreen().findPreference(PREF_ACCOUNT+j).setSummary(username.equals("")||server.equals("")?getResources().getString(R.string.settings_line)+" "+(i+1):username+"@"+server);
+	    	fill(PREF_PORT+j,DEFAULT_PORT,R.array.port_values2,R.array.port_values2);
+	    	fill(PREF_PROTOCOL+j,DEFAULT_PROTOCOL,R.array.protocol_values2,R.array.protocol_display_values2);
+	    	getPreferenceScreen().findPreference(PREF_ACCOUNT+j).setSummary(username.equals("")||server.equals("")?"Not Configured":username+"@"+server);
        	}
        	
     	getPreferenceScreen().findPreference(PREF_SEARCH).setSummary(settings.getString(PREF_SEARCH, DEFAULT_SEARCH)); 
@@ -615,10 +568,6 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
     	} else {
     		getPreferenceScreen().findPreference(PREF_PAR).setEnabled(false);
       	}
-    	fill(PREF_EARGAIN,  "" + DEFAULT_EARGAIN,  R.array.eargain_values, R.array.eargain_display_values);
-    	fill(PREF_MICGAIN,  "" + DEFAULT_MICGAIN,  R.array.eargain_values, R.array.eargain_display_values);
-    	fill(PREF_HEARGAIN, "" + DEFAULT_HEARGAIN, R.array.eargain_values, R.array.eargain_display_values);
-    	fill(PREF_HMICGAIN, "" + DEFAULT_HMICGAIN, R.array.eargain_values, R.array.eargain_display_values);
     	if (settings.getBoolean(PREF_STUN, DEFAULT_STUN)) {
     		getPreferenceScreen().findPreference(PREF_STUN_SERVER).setEnabled(true);
     		getPreferenceScreen().findPreference(PREF_STUN_SERVER_PORT).setEnabled(true);

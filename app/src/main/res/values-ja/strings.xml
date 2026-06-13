@@ -2,9 +2,9 @@
 <!--
  * Copyright (C) 2009 The Sipdroid Open Source Project
  *
- * This file is part of Sipdroid (http://www.sipdroid.org)
+ * This file is part of Android SIP (http://www.sipdroid.org)
  *
- * Sipdroid is free software; you can redistribute it and/or modify
+ * Android SIP is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 3 of the License, or
  * (at your option) any later version.
@@ -19,7 +19,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 /////////////////////////////////////////////////////////////////////
-// these are the main messages of Sipdroid
+// these are the main messages of Android SIP
 // for modifying them additional terms according to section 7, GPL apply
 // see ADDITIONAL_TERMS.txt
 /////////////////////////////////////////////////////////////////////
@@ -27,11 +27,11 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-<string name="app_name">Sipdroid</string>
+<string name="app_name">Android SIP</string>
 <string name="pstn_name">Phone Call</string>
-<string name="sip_name">Sipdroid Call, when available</string>
+<string name="sip_name">Android SIP Call, when available</string>
 
-<string name="about">SipdroidはオープンソースのAndroid用SIPクライアントです。
+<string name="about">Android SIPはオープンソースのAndroid用SIPクライアントです。
 \n
 \n詳細情報は http://sipdroid.org を参照ください。
 \n
@@ -147,10 +147,10 @@
 <string name="settings_check">携帯電話会社がVoIPを許可している場合のみ有効にしてください。</string>
 <string name="settings_vpn2">PBXesでは無料のVPNサービスを提供しています。詳しくは PBXes >> HELP にて!</string>
 
-<string name="dialog_default">Sipdroidは標準の電話アプリに設定されていません. 標準の電話アプリとして設定しますか?
+<string name="dialog_default">Android SIPは標準の電話アプリに設定されていません. 標準の電話アプリとして設定しますか?
 \n
-\n\'いいえ\' を選択した場合, 他の電話アプリからSipdroid経由で電話するには電話番号の前に \'+\' をつけるか、Contactsから \'text to\' でSipdroidを選んでください.</string>
-<string name="dialog_message">Would you like to see a message from Pascal introducing Sipdroid 1.5?</string>
+\n\'いいえ\' を選択した場合, 他の電話アプリからAndroid SIP経由で電話するには電話番号の前に \'+\' をつけるか、Contactsから \'text to\' でAndroid SIPを選んでください.</string>
+<string name="dialog_message">Would you like to see a message from Pascal introducing Android SIP 1.5?</string>
 <string name="dialog_port">安定性向上のためSIPポートを5060から5061に変更しますか？</string>
 <string name="yes">はい</string>
 <string name="no">いいえ</string>
@@ -159,8 +159,8 @@
 <string name="settings_pref">電話発信時の利用選択</string>
 <string name="settings_pref2">自動的に\'+\'を付加して電話をかけれるようにしたり、Contactsから\'text to\'経由で使えるようにします.</string>
     <string-array name="pref_display_values">
-        <item>Sipdroidのみ</item>
-        <item>Sipdroidが有効な場合</item>
+        <item>Android SIPのみ</item>
+        <item>Android SIPが有効な場合</item>
         <item>電話</item>
         <item>常に確認</item>
     </string-array>
@@ -241,9 +241,9 @@
 <string name="settings_callthru">Trigger Callthru</string>
 <string name="settings_callthru2">Prefix for Callthru</string>
 
-<string name="settings_title">Sipdroid設定</string>
+<string name="settings_title">Android SIP設定</string>
 
-<string name="settings_profile_title">Sipdroid設定 (<xliff:g id="profile">%s</xliff:g>)</string>
+<string name="settings_profile_title">Android SIP設定 (<xliff:g id="profile">%s</xliff:g>)</string>
 <string name="settings_profile_menu_import">インポート</string>
 <string name="settings_profile_menu_export">エクスポート</string>
 <string name="settings_profile_menu_delete">削除</string>
@@ -302,3 +302,5 @@
 <string name="menu_create">New PBX linked to my Google Voice</string>
 
 </resources>
+
+

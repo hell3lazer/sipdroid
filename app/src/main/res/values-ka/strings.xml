@@ -2,9 +2,9 @@
 <!--
  * Copyright (C) 2009 The Sipdroid Open Source Project
  *
- * This file is part of Sipdroid (http://www.sipdroid.org)
+ * This file is part of Android SIP (http://www.sipdroid.org)
  *
- * Sipdroid is free software; you can redistribute it and/or modify
+ * Android SIP is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 3 of the License, or
  * (at your option) any later version.
@@ -19,7 +19,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 /////////////////////////////////////////////////////////////////////
-// these are the main messages of Sipdroid
+// these are the main messages of Android SIP
 // for modifying them additional terms according to section 7, GPL apply
 // see ADDITIONAL_TERMS.txt
 /////////////////////////////////////////////////////////////////////
@@ -27,11 +27,11 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-<string name="app_name">Sipdroid</string>
+<string name="app_name">Android SIP</string>
 <string name="pstn_name">სატელეფონო ზარი</string>
-<string name="sip_name">Sipdroid ზარი, შესაძლებლობის მიხედვით</string>
+<string name="sip_name">Android SIP ზარი, შესაძლებლობის მიხედვით</string>
 
-<string name="about">Sipdroid არის android-ის SIP კლიენტი
+<string name="about">Android SIP არის android-ის SIP კლიენტი
 \n
 \nმეტი ინფორმაციისათვის იხილეთ http://sipdroid.org
 \n
@@ -147,10 +147,10 @@
 <string name="settings_check">შეამოწმეთ არის თუ არა VoIP დაშვებული თქვენი მობილური ოპერატორის მიერ</string>
 <string name="settings_vpn2">PBX-ები როგორც წესი გთავაზობენ უფასო VPN სერვისებს. იხ. PBX-ები-> დახმარება</string>
 
-<string name="dialog_default">Sipdroid-ი ამჟამად არ გამოიყენება როგორც ნაგულისხმევი ტელეფონი. გნებავთ გავხადო?
+<string name="dialog_default">Android SIP-ი ამჟამად არ გამოიყენება როგორც ნაგულისხმევი ტელეფონი. გნებავთ გავხადო?
 \n
-\nთუ თქვენ უპასუხებთ \'არა\', თქვენ მაინც შეგეძლებათ Sipdroid-ით სარგებლობა სისტემიდან ნომრისათვის წინ ნიშან \'+\' -ის დამატებით ან \'text to\' -ს არჩევით კონტაქტებში.</string>
-<string name="dialog_message">გნებავთ იხილოთ პასკალის შეტყობინება Sipdroid 1.5-ის შესახებ?</string>
+\nთუ თქვენ უპასუხებთ \'არა\', თქვენ მაინც შეგეძლებათ Android SIP-ით სარგებლობა სისტემიდან ნომრისათვის წინ ნიშან \'+\' -ის დამატებით ან \'text to\' -ს არჩევით კონტაქტებში.</string>
+<string name="dialog_message">გნებავთ იხილოთ პასკალის შეტყობინება Android SIP 1.5-ის შესახებ?</string>
 <string name="dialog_port">გნებავთ SIP პორტის 5060-დან 5061-ზე შეცვლა მეტი სანდოობისათვის?</string>
 <string name="yes">დიახ</string>
 <string name="no">არა</string>
@@ -159,8 +159,8 @@
 <string name="settings_pref">ზარის არჩეული ტიპი</string>
 <string name="settings_pref2">შეგიძლიათ გადაახტეთ სიმბოლო \'+\' -ის დამატებით ნომრის წინ ან \'text to\' -ს არჩევით კონტაქტებში.</string>
     <string-array name="pref_display_values">
-        <item>მხოლოდ Sipdroid</item>
-        <item>Sipdroid, ხელმისაწვდომობის შემთხვევაში</item>
+        <item>მხოლოდ Android SIP</item>
+        <item>Android SIP, ხელმისაწვდომობის შემთხვევაში</item>
         <item>ტელეფონი</item>
         <item>ყოველთვის შეკითხვა</item>
     </string-array>
@@ -241,9 +241,9 @@
 <string name="settings_callthru">გამჭოლის ზარის აღძვრა</string>
 <string name="settings_callthru2">გამჭოლი ზარის პრეფიქსი</string>
 
-<string name="settings_title">Sipdroid-ის გამართვა</string>
+<string name="settings_title">Android SIP-ის გამართვა</string>
 
-<string name="settings_profile_title">Sipdroid-ის გამართვა (<xliff:g id="profile">%s</xliff:g>)</string>
+<string name="settings_profile_title">Android SIP-ის გამართვა (<xliff:g id="profile">%s</xliff:g>)</string>
 <string name="settings_profile_menu_import">შემოტანა</string>
 <string name="settings_profile_menu_export">გატანა</string>
 <string name="settings_profile_menu_delete">წაშლა</string>
@@ -302,3 +302,5 @@
 <string name="menu_create">ახალი PBX დაკავშირებულია ჩემს Google Voice-თან</string>
 
 </resources>
+
+

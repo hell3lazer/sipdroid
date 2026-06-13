@@ -1,0 +1,1382 @@
+[
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_end_call.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_end_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_pause_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_pause_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_sym_call_done.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\sym_call_done.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_2_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_2_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_save.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\save.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_mute.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\mute.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dialer_pressed.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dialer_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\layout_sipdroid.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\layout\\sipdroid.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_end_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_end_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_7_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_7_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_delete_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_delete_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_call_hold_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_call_hold_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_cancel_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_cancel_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_2.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_pause_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_pause_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_camera_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_camera_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_voicemail_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_voicemail_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_picture_dialing.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\picture_dialing.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_call_end_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_call_end_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_presence_offline.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_presence_offline.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_mic_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_mic_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_goback.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\goback.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_ic_menu_dial_pad.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\ic_menu_dial_pad.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_delete.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_voicemail_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_voicemail_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_2_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_2_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_menu_contact.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_menu_contact.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_textfield_normal.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_textfield_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_tab_selected_recent.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_tab_selected_recent.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_textfield_selected.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_textfield_selected.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_delete_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_delete_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_dialer_voicemail.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_dialer_voicemail.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_preferences_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_preferences_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_incoming_call_answer_options.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_incoming_call_answer_options.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_end_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_end_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_end_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_end_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_1.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_dialpad_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_dialpad_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_missed_call_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_missed_call_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_call_end_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_call_end_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_warning_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_warning_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_7_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_7_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_1_no_vm.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_1_no_vm.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_dialpad_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_dialpad_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_icon32.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\icon32.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_voicemail_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_voicemail_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_conf.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\conf.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_bg_circle_action.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\bg_circle_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_cancel_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_cancel_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_warning_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_warning_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_picture_unknown.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\picture_unknown.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_mic_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_mic_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_menu_preferences.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_menu_preferences.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_mic_off_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_mic_off_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_6_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_6_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_dial_number_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_dial_number_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_upload_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_upload_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_save_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_save_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_tab_selected_stared.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_tab_selected_stared.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_incall_frame_ended_tall_port.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\incall_frame_ended_tall_port.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_fav_five.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_fav_five.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\layout-finger_dtmf_twelve_key_dialer.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\layout-finger\\dtmf_twelve_key_dialer.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_save_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_save_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_menu_preferences.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_menu_preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_incall_frame_hold_short.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\incall_frame_hold_short.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_pound_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_pound_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_tab_unselected_stared.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_tab_unselected_stared.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\color_icon_tint_action.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\color\\icon_tint_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dialer.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dialer.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_menu_preferences.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_menu_preferences.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\layout_call_card_person_info.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\layout\\call_card_person_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_tab_contacts.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_tab_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_0.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_delete_activated.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_delete_activated.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_6_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_6_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_ic_incall_hangup.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\ic_incall_hangup.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_menu_preferences.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_menu_preferences.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_end_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_end_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_volume_up_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_volume_up_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_cancel_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_cancel_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_normal.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_preferences_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_preferences_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_delete_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_delete_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_ic_incall_add.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\ic_incall_add.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_ic_menu_preferences.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\ic_menu_preferences.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_sym_call_done.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\sym_call_done.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_3.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_3.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_menu_dial_pad.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_menu_dial_pad.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_menu_preferences.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_menu_preferences.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_preferences_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_preferences_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_pound_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_pound_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_picture_conference.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\picture_conference.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_people.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\people.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_ic_incall_answer.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\ic_incall_answer.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_textfield_pressed_full.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_textfield_pressed_full.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_delete_pressed.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_delete_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_menu_dial_pad.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_menu_dial_pad.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_dialpad_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_dialpad_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_textfield_active.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_textfield_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_cancel_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_cancel_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_ic_search_contacts.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\ic_search_contacts.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_icon22.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\icon22.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_icon.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_mic_off_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_mic_off_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_3_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_3_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_call_hold_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_call_hold_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_upload_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_upload_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_warning_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_warning_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_tab_unselected_dialer.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_tab_unselected_dialer.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_tray_handle_selected.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\tray_handle_selected.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_dialpad_tray.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_dialpad_tray.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_preferences_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_preferences_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_item_indicator.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_item_indicator.png"
+    },
+    {
+        "merged": "org.sipdroid.sipua.app-merged_res-4:/xml_preferences.xml.flat",
+        "source": "org.sipdroid.sipua.app-main-6:/xml/preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_3_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_3_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_5.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_5.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_ic_contacts_edit_contacts.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\ic_contacts_edit_contacts.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_incall_photo_border.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\incall_photo_border.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_camera_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_camera_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_delete_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_delete_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_volume_up_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_volume_up_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_call_redial.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_call_redial.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_bg_circle_slider_thumb.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\bg_circle_slider_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_mic_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_mic_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_star_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_star_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_upload_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_upload_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_tab_selected_contacts.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_tab_selected_contacts.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_call_add_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_call_add_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\xml_codec_settings.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\xml\\codec_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_volume_up_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_volume_up_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_incall_frame_hold_tall_port.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\incall_frame_hold_tall_port.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_menu_dial_pad.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_menu_dial_pad.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_pause_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_pause_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_picture_unknown_2.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\picture_unknown_2.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_headphone_deactive.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_headphone_deactive.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_preferences_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_preferences_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_4.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_4.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_textfield_normal_full.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_textfield_normal_full.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dialer_default_dial.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dialer_default_dial.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_incoming_call_answer.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_incoming_call_answer.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_warning_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_warning_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_voicemail_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_voicemail_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_tray_handle.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\tray_handle.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\layout_call_card_popup.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\layout\\call_card_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_camera_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_camera_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_ic_incall_onhold.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\ic_incall_onhold.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_1_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_1_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_delete_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_delete_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_sym_call_done.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\sym_call_done.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_call_hold_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_call_hold_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_0_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_0_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_selected.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_dialpad_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_dialpad_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_call_speakerphone_off.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_call_speakerphone_off.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_tray_handle_pressed.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\tray_handle_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_call_end.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_call_end.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_textfield_selected_full.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_textfield_selected_full.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_call_hold_off.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_call_hold_off.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_cancel_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_cancel_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\xml_preferences.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_mic_off_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_mic_off_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_upload_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_upload_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_call_end_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_call_end_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_tab_unselected_recent.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_tab_unselected_recent.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_save_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_save_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_0_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_0_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_call_end_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_call_end_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_menu_dial_pad.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_menu_dial_pad.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_picture_frame.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\picture_frame.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_incoming_call_dont_answer.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_incoming_call_dont_answer.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_incall_frame_connected_tall_port.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\incall_frame_connected_tall_port.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_1_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_1_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_presence_idle.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_presence_idle.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_volume_up_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_volume_up_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_camera_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_camera_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_auto_answer_disabled.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\auto_answer_disabled.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_item_indicator_focus.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_item_indicator_focus.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_1_no_vm_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_1_no_vm_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_incall_frame_normal_short.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\incall_frame_normal_short.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_mic_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_mic_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_missed_call_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_missed_call_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\layout_video_camera.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\layout\\video_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_voicemail_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_voicemail_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_save_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_save_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_picture_end.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\picture_end.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_9.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_9.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_incall_frame_normal_tall_land.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\incall_frame_normal_tall_land.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_ic_launcher_phone.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\ic_launcher_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_auto_answer.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\auto_answer.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_call_end_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_call_end_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_textfield_pressed.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_textfield_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_save_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_save_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_dialer_voicemail_black.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_dialer_voicemail_black.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_upload_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_upload_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_delete_active.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_delete_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_missed_call_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_missed_call_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_icon64.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\icon64.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_call_lcd.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_call_lcd.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_tab_selected_dialer.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_tab_selected_dialer.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_info_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_info_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_star_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_star_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_call_hold_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_call_hold_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_ic_incall_end.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\ic_incall_end.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_pause_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_pause_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dialer_dial.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dialer_dial.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_launcher_contacts.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_launcher_contacts.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\layout_call_card.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\layout\\call_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_pause_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_pause_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_info_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_info_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_textfield.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_textfield.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_im.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\im.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_volume_up_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_volume_up_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_incall_frame_ended_short.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\incall_frame_ended_short.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_status_bar_item_app_background_normal.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\status_bar_item_app_background_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_incall_frame_hold_tall_land.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\incall_frame_hold_tall_land.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_menu_preferences.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_menu_preferences.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_info_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_info_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_8.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_8.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_save_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_save_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_end_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_end_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_ic_incall_ongoing.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\ic_incall_ongoing.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\layout_ongoing_call_notification.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\layout\\ongoing_call_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_voicemail_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_voicemail_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_dialpad_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_dialpad_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_mic_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_mic_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_presence_available.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_presence_available.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_incall_frame_connected_tall_land.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\incall_frame_connected_tall_land.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_4_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_4_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_mic_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_mic_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\layout-finger_dialpad.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\layout-finger\\dialpad.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_tab_unselected_contacts.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_tab_unselected_contacts.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_menu_dial_pad.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_menu_dial_pad.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_call_done.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_call_done.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_sym_call_done.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\sym_call_done.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_info_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_info_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_incall_frame_normal_tall_port.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\incall_frame_normal_tall_port.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_info_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_info_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_textfield_activated.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_textfield_activated.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_missed_call_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_missed_call_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_menu_dial_pad.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_menu_dial_pad.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_preferences_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_preferences_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_picture_unknown_3.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\picture_unknown_3.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_delete_normal.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_delete_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_mic_off_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_mic_off_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_incoming_call_hold_answer.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_incoming_call_hold_answer.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_dialpad_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_dialpad_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_4_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_4_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_end_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_end_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_camera_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_camera_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_exit.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\exit.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\layout_incall.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\layout\\incall.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_5_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_5_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_picture_busy.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\picture_busy.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_menu_dial_pad.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_menu_dial_pad.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_pause_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_pause_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_5_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_5_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_volume_up_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_volume_up_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_delete_phone_number.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_delete_phone_number.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_stat_sys_phone_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\stat_sys_phone_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_dialpad_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_dialpad_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_camera_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_camera_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_mic_off_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_mic_off_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_home.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_voicemail_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_voicemail_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_missed_call_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_missed_call_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_info_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_info_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_mic_off_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_mic_off_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_call.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_incall_frame_ended_tall_land.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\incall_frame_ended_tall_land.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_6.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_6.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_headphone.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_headphone.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_tab_dialer.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_tab_dialer.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_call_hold_on.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_call_hold_on.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_sym_call_done.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\sym_call_done.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_call_speakerphone_on.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_call_speakerphone_on.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_tab_recent.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_tab_recent.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_tab_starred.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_tab_starred.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_warning_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_warning_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_call_hold_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_call_hold_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_presence_away.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_presence_away.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_tray_handle_normal.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\tray_handle_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_8_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_8_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dialer_default.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dialer_default.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_upload_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_upload_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_preferences_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_preferences_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_upload_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_upload_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_call_hold_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_call_hold_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_info_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_info_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_pressed.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_sym_call_merge.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\sym_call_merge.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_delete_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_delete_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_warning_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_warning_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\layout-land_call_card_person_info.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\layout-land\\call_card_person_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_ic_menu_end_call.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\ic_menu_end_call.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_cancel_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_cancel_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_dial_number_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_dial_number_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_contacts.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\contacts.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_8_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_8_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_incall_frame_connected_short.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\incall_frame_connected_short.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_missed_call_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_missed_call_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_stat_sys_phone_call_bluetooth.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\stat_sys_phone_call_bluetooth.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_delete_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_delete_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_dial_number.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_dial_number.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_missed_call_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_missed_call_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_textfield_activated_full.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_textfield_activated_full.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_volume_up_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_volume_up_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-mdpi_ic_pause_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-mdpi\\ic_pause_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_dialer_voicemail_white.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_dialer_voicemail_white.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dark_header.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dark_header.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_ic_warning_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\ic_warning_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_7.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_7.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dial_delete_selected.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dial_delete_selected.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-hdpi_ic_cancel_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-hdpi\\ic_cancel_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_1_no_vm_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_1_no_vm_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_bg_pill_grey.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\bg_pill_grey.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxxhdpi_ic_call_hold_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxxhdpi\\ic_call_hold_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_bg_pill_red.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\bg_pill_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_9_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_9_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_ic_call_end_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\ic_call_end_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xhdpi_sym_call_done.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xhdpi\\sym_call_done.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-ldpi_sym_call_done.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-ldpi\\sym_call_done.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_9_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_9_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_pound.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_pound.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_call_end_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_call_end_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_menu_preferences.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_menu_preferences.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\layout-finger_dtmf_display.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\layout-finger\\dtmf_display.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dark_header_dithered.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dark_header_dithered.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_delete_phone_number_wht.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_delete_phone_number_wht.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_mic_off_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_mic_off_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_mic_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_mic_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_dial_num_star.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\dial_num_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable_configure.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable\\configure.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-xxhdpi_ic_camera_24.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-xxhdpi\\ic_camera_24.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\layout_create_dialog.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\layout\\create_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_ic_delete_phone_number_blk.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\ic_delete_phone_number_blk.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-finger_btn_dialer_selected.9.png.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-main-6:\\drawable-finger\\btn_dialer_selected.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-merged_res-4:\\drawable-anydpi-v21_ic_save_24.xml.flat",
+        "source": "C:\\Users\\user\\scoop\\apps\\gradle\\current\\.gradle\\daemon\\8.4\\org.sipdroid.sipua.app-pngs-0:\\drawable-anydpi-v21\\ic_save_24.xml"
+    }
+]

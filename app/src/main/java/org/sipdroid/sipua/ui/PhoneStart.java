@@ -26,16 +26,17 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
+import android.preference.PreferenceManager;
 
 public class PhoneStart extends BroadcastReceiver {
 
     @Override
 	public void onReceive(Context context, Intent intent) {
     	
-    	if(intent.getAction().equals("org.sipdroid.START_SIPDROID")) {
+    	if(intent.getAction().equals("com.androidsip.START_SIPDROID")) {
     		Receiver.engine(context).registerMore();
     	}
-    	else if(intent.getAction().equals("org.sipdroid.STOP_SIPDROID")) {
+    	else if(intent.getAction().equals("com.androidsip.STOP_SIPDROID")) {
         	//NOTE: this kills service, but not activity if it is currently visible.
         	//      Can activity be killed as well somehow?
     		Sipdroid.on(context, false);
